@@ -143,8 +143,8 @@ Bartender4DB = {
 								["Backdrop"] = false,
 							},
 							["enabled"] = true,
-							["hidehotkey"] = true,
 							["version"] = 3,
+							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = 50,
 								["x"] = -286.6500139853424,
@@ -165,15 +165,15 @@ Bartender4DB = {
 				["main"] = {
 					["enabled"] = false,
 					["version"] = 3,
-					["skin"] = {
-						["ID"] = "Zoomed",
-						["Backdrop"] = false,
-					},
 					["position"] = {
 						["y"] = 42.39993347118468,
 						["x"] = -188.8000917427289,
 						["point"] = "CENTER",
 						["scale"] = 0.800000011920929,
+					},
+					["skin"] = {
+						["ID"] = "Zoomed",
+						["Backdrop"] = false,
 					},
 				},
 			},
@@ -199,34 +199,34 @@ Bartender4DB = {
 				},
 			},
 		},
-		["Vehicle"] = {
+		["StanceBar"] = {
 			["profiles"] = {
 				["main"] = {
 					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99998926320336,
+						["x"] = -82.49996720831859,
+						["point"] = "CENTER",
+					},
 					["skin"] = {
 						["ID"] = "Svelte Square Shadow",
 						["Backdrop"] = false,
 					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["main"] = {
+					["version"] = 3,
 					["position"] = {
 						["y"] = 46.00000588130259,
 						["x"] = -130.0001287047846,
 						["point"] = "BOTTOMRIGHT",
 					},
-				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["main"] = {
-					["version"] = 3,
 					["skin"] = {
 						["ID"] = "Svelte Square Shadow",
 						["Backdrop"] = false,
-					},
-					["position"] = {
-						["y"] = -14.99998926320336,
-						["x"] = -82.49996720831859,
-						["point"] = "CENTER",
 					},
 				},
 			},
@@ -236,14 +236,14 @@ Bartender4DB = {
 				["main"] = {
 					["enabled"] = false,
 					["version"] = 3,
-					["skin"] = {
-						["ID"] = "Zoomed",
-						["Backdrop"] = false,
-					},
 					["position"] = {
 						["y"] = 80.00796683984824,
 						["x"] = -163.4998882210571,
 						["point"] = "BOTTOM",
+					},
+					["skin"] = {
+						["ID"] = "Zoomed",
+						["Backdrop"] = false,
 					},
 				},
 			},

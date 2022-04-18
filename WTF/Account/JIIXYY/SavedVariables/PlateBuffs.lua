@@ -10,12 +10,12 @@ PB_DB = {
 	["profiles"] = {
 		["Default"] = {
 			["intervalY"] = 0,
+			["barOffsetY"] = 14,
 			["blinkTimeleft"] = 0,
 			["skin_SkinID"] = "Svelte Square Shadow",
 			["skin_Gloss"] = 0,
 			["showCooldown"] = false,
 			["iconSize"] = 22,
-			["barOffsetY"] = 14,
 			["intervalX"] = 0,
 			["iconSize2"] = 22,
 		},

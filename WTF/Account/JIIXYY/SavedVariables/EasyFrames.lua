@@ -18,7 +18,7 @@ EasyFramesDB = {
 			},
 			["general"] = {
 				["buffSize"] = 20,
-				["brightFrameBorder"] = 0,
+				["highlightDispelledBuff"] = false,
 				["framesPoints"] = {
 					["target"] = {
 						"TOPLEFT", -- [1]
@@ -51,7 +51,7 @@ EasyFramesDB = {
 				["selfBuffSize"] = 24,
 				["barTexture"] = "Minimalist (GladiusEx)",
 				["lightTexture"] = true,
-				["highlightDispelledBuff"] = false,
+				["brightFrameBorder"] = 0,
 			},
 			["focus"] = {
 				["manaFormat"] = "custom",
@@ -69,8 +69,11 @@ EasyFramesDB = {
 				["customManaFormat"] = "%CURRENT% / %MAX%",
 				["healthFormat"] = "custom",
 			},
-			["boss"] = {
-				["scaleFrame"] = 1.2,
+			["party"] = {
+				["manaFormat"] = "custom",
+				["customHealthFormat"] = "%CURRENT% / %MAX%",
+				["healthFormat"] = "custom",
+				["customManaFormat"] = "%CURRENT% / %MAX%",
 			},
 			["pet"] = {
 				["manaFormat"] = "custom",
@@ -78,11 +81,8 @@ EasyFramesDB = {
 				["healthFormat"] = "custom",
 				["customManaFormat"] = "%CURRENT% / %MAX%",
 			},
-			["party"] = {
-				["manaFormat"] = "custom",
-				["customHealthFormat"] = "%CURRENT% / %MAX%",
-				["healthFormat"] = "custom",
-				["customManaFormat"] = "%CURRENT% / %MAX%",
+			["boss"] = {
+				["scaleFrame"] = 1.2,
 			},
 		},
 	},

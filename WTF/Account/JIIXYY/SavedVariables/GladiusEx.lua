@@ -40,8 +40,8 @@ GladiusExDB = {
 				["Jixxy - Blackrock [PvP only]"] = {
 					["modules"] = {
 						["Clicks"] = true,
-						["Announcements"] = false,
 						["CastBar"] = false,
+						["Announcements"] = false,
 						["Cooldowns"] = false,
 						["PowerBar"] = false,
 					},
@@ -50,14 +50,14 @@ GladiusExDB = {
 					["oorAlpha"] = 1,
 					["y"] = {
 						["anchor_arena"] = 186.1334729429635,
-						["arena3"] = 157.3334829967776,
 						["arena2"] = 189.3334631112113,
+						["arena3"] = 157.3334829967776,
 						["arena1"] = 221.3334768393403,
 					},
 					["x"] = {
 						["anchor_arena"] = 1046.933225978553,
-						["arena3"] = 1046.933225978553,
 						["arena2"] = 1046.933225978553,
+						["arena3"] = 1046.933225978553,
 						["arena1"] = 1046.933225978553,
 					},
 					["backgroundPadding"] = 0,
@@ -80,13 +80,13 @@ GladiusExDB = {
 				["Jixxy - Blackrock [PvP only]"] = {
 					["y"] = {
 						["player"] = 470.8266251406561,
-						["party2"] = 354.2044475033579,
 						["party1"] = 412.5155587311371,
+						["party2"] = 354.2044475033579,
 					},
 					["x"] = {
 						["player"] = 434.2045490510706,
-						["party2"] = 434.2045490510706,
 						["party1"] = 434.2045490510706,
+						["party2"] = 434.2045490510706,
 					},
 				},
 			},
@@ -106,27 +106,27 @@ GladiusExDB = {
 		},
 		["party_Tags"] = {
 		},
-		["party_PetBar"] = {
+		["Clicks"] = {
 		},
 		["party_Cooldowns"] = {
 		},
 		["party_Clicks"] = {
 		},
+		["Tags"] = {
+		},
 		["Announcements"] = {
-		},
-		["party_Interrupts"] = {
-		},
-		["PetBar"] = {
-		},
-		["Alerts"] = {
-		},
-		["party_Auras"] = {
 		},
 		["TargetBar"] = {
 		},
-		["Tags"] = {
+		["party_Auras"] = {
 		},
-		["Clicks"] = {
+		["Alerts"] = {
+		},
+		["PetBar"] = {
+		},
+		["party_Interrupts"] = {
+		},
+		["party_PetBar"] = {
 		},
 		["ClassIcon"] = {
 			["profiles"] = {

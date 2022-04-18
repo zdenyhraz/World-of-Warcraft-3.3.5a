@@ -1,5 +1,5 @@
 BINDINGMODE 0
-bind BUTTON3 NONE
+bind BUTTON3 CLICK BT4Button50:LeftButton
 bind X CLICK BT4Button33:LeftButton
 bind Z CLICK BT4Button55:LeftButton
 bind NUMLOCK NONE
@@ -104,4 +104,4 @@ bind ALT-BUTTON5 CLICK BT4Button42:LeftButton
 bind CTRL-BUTTON3 CLICK BT4Button58:LeftButton
 bind CTRL-BUTTON5 CLICK BT4Button60:LeftButton
 bind SHIFT-BUTTON5 CLICK BT4Button56:LeftButton
-bind NUMPAD7 CLICK BT4Button50:LeftButton
+bind NUMPAD7 NONE
