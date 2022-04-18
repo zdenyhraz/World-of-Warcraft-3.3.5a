@@ -1,0 +1,30 @@
+
+KuiNameplatesGDB = {
+	["namespaces"] = {
+		["Castbar"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["NameOnly"] = {
+		},
+		["ClassColours"] = {
+		},
+		["LowHealthColours"] = {
+		},
+		["CastWarnings"] = {
+		},
+		["Auras"] = {
+		},
+		["ComboPoints"] = {
+		},
+		["TankMode"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Jixxy - Blackrock [PvP only]"] = "Jixxy - Blackrock [PvP only]",
+	},
+	["profiles"] = {
+		["Jixxy - Blackrock [PvP only]"] = {
+		},
+	},
+}

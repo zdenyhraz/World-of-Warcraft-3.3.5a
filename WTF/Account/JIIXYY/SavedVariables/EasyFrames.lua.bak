@@ -1,0 +1,10 @@
+
+EasyFramesDB = {
+	["profileKeys"] = {
+		["Jixxy - Blackrock [PvP only]"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

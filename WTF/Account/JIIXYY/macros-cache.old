@@ -1,0 +1,107 @@
+MACRO 103 "1" Spell_Nature_Purge
+/cast [target=Party1] Devour Magic
+END
+MACRO 144 "16" INV_Misc_QuestionMark
+/cast [modifier:alt] Summon Imp(Summon); Summon Felhunter(Summon)
+END
+MACRO 106 "2" Spell_Nature_Purge
+/cast [target=Party2] Devour Magic
+END
+MACRO 174 "3marks" Spell_Holy_Penance
+/script SetRaidTargetIcon("raid2",3)
+/script SetRaidTargetIcon("raid3",7)
+/script SetRaidTargetIcon("raid1",8)
+/console cameradistancemaxfactor 2
+/console cameradistancemaxfactor 5
+END
+MACRO 142 "80" INV_Misc_QuestionMark
+/cast [modifier:shift] Soul Fire; Searing Pain
+END
+MACRO 130 "a" INV_Misc_QuestionMark
+/cast [target=focus] Corruption
+END
+MACRO 180 "a" INV_Misc_QuestionMark
+/cast Corruption
+END
+MACRO 185 "an" Spell_unused2
+/5 Affli lock gameplay with chill music anc sexy UI >> www.twitch.tv/jixxyxd
+END
+MACRO 147 "asd" INV_Misc_QuestionMark
+/cast [modifier:shift] Soul Fire; Conflagrate
+/use Pyro Rocket
+END
+MACRO 141 "asd" Ability_Tracking
+/petfollow [nomod:alt]
+/petstay [mod:alt]
+/petpassive
+/cast Lesser Invisibility
+END
+MACRO 68 "blabla" INV_Misc_QuestionMark
+/cast [target=focus] Curse of Tongues
+END
+MACRO 175 "camera" Spell_Ice_MagicDamage
+/console cameraDistanceMaxFactor 20
+END
+MACRO 177 "details" Spell_Shadow_TwistedFaith
+/details toggle
+END
+MACRO 186 "dnc" Ability_Hunter_Displacement
+/dance
+END
+MACRO 167 "focus" Spell_Nature_FaerieFire
+/focus [@mouseover]
+END
+MACRO 54 "fr" INV_Misc_QuestionMark
+/cast [target=focus] Fear
+/use Corroded Skeleton Key
+END
+MACRO 183 "fr" INV_Misc_QuestionMark
+/cast [@mouseover,harm,nodead] [harm] [@target] Fear
+END
+MACRO 184 "hs" INV_Misc_QuestionMark
+#showtooltip
+/use  [nomod] Fel Healthstone
+/use  [modifier:shift] Bauble of True Blood
+/use  [@party1, modifier:alt] Bauble of True Blood
+/use  [@party1, modifier:ctrl] Bauble of True Blood
+END
+MACRO 60 "koil" Spell_Shadow_DeathCoil
+/cast [target=focus] Death Coil
+END
+MACRO 132 "pa" Ability_Creature_Disease_04
+/petdefensive
+/petattack [target=mouseover]
+/cast [target=mouseover] Leap
+/petattack [target=Grounding Totem]
+/petattack [target=Tremor Totem]
+END
+MACRO 104 "purg" Spell_Nature_Purge
+/cast [target=target] Devour Magic
+END
+MACRO 55 "self" Spell_Nature_Purge
+/cast [target=player] Devour Magic
+END
+MACRO 176 "sstone" INV_Misc_QuestionMark
+/cast Create Spellstone(Rank 6)
+/use Grand Spellstone
+/use 16
+/click StaticPopup1Button1
+END
+MACRO 179 "target1" Spell_Shadow_SpectralSight
+/targetenemyplayer
+END
+MACRO 182 "target2" Spell_Shadow_SpectralSight
+/targetenemy
+END
+MACRO 61 "zg" Spell_Shadow_MindRot
+/cast [@mouseover,harm,nodead] [harm] [@target] Spell Lock
+/cast  [nomod] Sacrifice
+/cast [target=target] !Seduction
+/petstay
+END
+MACRO 143 "zgf" Spell_Shadow_MindRot
+/cast [@focus] Spell Lock
+/cast [@focus] Seduction
+/cast Consume Shadows
+/petstay
+END

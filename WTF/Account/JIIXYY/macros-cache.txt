@@ -1,0 +1,54 @@
+MACRO 174 "3marks" Spell_Holy_Penance
+/script SetRaidTargetIcon("raid2",3)
+/script SetRaidTargetIcon("raid3",7)
+/script SetRaidTargetIcon("raid1",8)
+/console cameradistancemaxfactor 2
+/console cameradistancemaxfactor 5
+END
+MACRO 185 "an" Spell_unused2
+/5 Affli lock gameplay with chill music anc sexy UI >> www.twitch.tv/jixxyxd
+END
+MACRO 147 "asd" INV_Misc_QuestionMark
+/cast [modifier:shift] Soul Fire; Conflagrate
+/use Pyro Rocket
+END
+MACRO 175 "camera" Spell_Ice_MagicDamage
+/console cameraDistanceMaxFactor 20
+END
+MACRO 177 "details" Spell_Shadow_TwistedFaith
+/details toggle
+END
+MACRO 188 "devour" Spell_Nature_Purge
+/cast [@target] Devour Magic
+END
+MACRO 186 "devour1" INV_Misc_QuestionMark
+/cast [@party1] Devour Magic
+END
+MACRO 187 "devour2" INV_Misc_QuestionMark
+/cast [@party2] Devour Magic
+END
+MACRO 190 "devourf" INV_Misc_QuestionMark
+/cast [@focus] Devour Magic
+END
+MACRO 189 "devours" INV_Misc_QuestionMark
+/cast [@player] Devour Magic
+END
+MACRO 167 "focus" Spell_Nature_FaerieFire
+/focus [@mouseover]
+END
+MACRO 132 "petattack" Ability_Creature_Disease_04
+/petdefensive
+/petattack [target=mouseover]
+/cast [target=mouseover] Leap
+/petattack [target=Grounding Totem]
+/petattack [target=Tremor Totem]
+END
+MACRO 141 "petfollow" Ability_Hunter_BeastTraining
+/petfollow [nomod:alt]
+/petstay [mod:alt]
+/petpassive
+/cast Lesser Invisibility
+END
+MACRO 179 "target" Spell_Shadow_SpectralSight
+/targetenemyplayer
+END

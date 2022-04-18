@@ -1,0 +1,11 @@
+
+SoundAlerterDB = {
+	["profileKeys"] = {
+		["Jixxy - Blackrock [PvP only]"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["path"] = "Interface\\Addons\\SoundAlerter\\Voice\\",
+		},
+	},
+}

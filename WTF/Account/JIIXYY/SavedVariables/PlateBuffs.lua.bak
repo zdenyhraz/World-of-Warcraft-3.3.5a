@@ -1,0 +1,22 @@
+
+PB_DB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Jixxy - Blackrock [PvP only]"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["intervalY"] = 0,
+			["blinkTimeleft"] = 0,
+			["iconSize2"] = 22,
+			["showCooldown"] = false,
+			["iconSize"] = 22,
+			["intervalX"] = 0,
+			["skin_Gloss"] = 0,
+			["barOffsetY"] = 14,
+		},
+	},
+}

@@ -1,0 +1,78 @@
+
+GladiusExDB = {
+	["namespaces"] = {
+		["party_CastBar"] = {
+		},
+		["Highlight"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["party_Alerts"] = {
+		},
+		["party_HealthBar"] = {
+		},
+		["party_ClassIcon"] = {
+		},
+		["party_Highlight"] = {
+		},
+		["party_DRTracker"] = {
+		},
+		["DRTracker"] = {
+		},
+		["party_PowerBar"] = {
+		},
+		["party_TargetBar"] = {
+		},
+		["Cooldowns"] = {
+		},
+		["arena"] = {
+		},
+		["Auras"] = {
+		},
+		["CastBar"] = {
+		},
+		["party"] = {
+		},
+		["Interrupts"] = {
+		},
+		["PowerBar"] = {
+		},
+		["party_Announcements"] = {
+		},
+		["HealthBar"] = {
+		},
+		["party_Interrupts"] = {
+		},
+		["party_Tags"] = {
+		},
+		["party_Cooldowns"] = {
+		},
+		["party_Clicks"] = {
+		},
+		["party_PetBar"] = {
+		},
+		["Announcements"] = {
+		},
+		["PetBar"] = {
+		},
+		["Alerts"] = {
+		},
+		["party_Auras"] = {
+		},
+		["TargetBar"] = {
+		},
+		["Tags"] = {
+		},
+		["Clicks"] = {
+		},
+		["ClassIcon"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Jixxy - Blackrock [PvP only]"] = "Jixxy - Blackrock [PvP only]",
+	},
+	["profiles"] = {
+		["Jixxy - Blackrock [PvP only]"] = {
+		},
+	},
+}

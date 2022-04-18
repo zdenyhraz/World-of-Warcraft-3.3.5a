@@ -1,0 +1,4 @@
+
+SafeQueueDB = {
+	["announce"] = "self",
+}

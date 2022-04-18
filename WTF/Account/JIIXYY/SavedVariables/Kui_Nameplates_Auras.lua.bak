@@ -1,0 +1,7 @@
+
+KuiSpellListCustom = {
+	["Classes"] = {
+	},
+	["Ignore"] = {
+	},
+}

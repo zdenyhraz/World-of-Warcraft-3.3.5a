@@ -1,0 +1,7 @@
+Cache
+Data
+Logs
+Screenshots
+*.dll
+*.exe
+*.bat

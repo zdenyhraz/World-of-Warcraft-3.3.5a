@@ -1,0 +1,4 @@
+
+ClassIconsSV = {
+	["style"] = "default",
+}
