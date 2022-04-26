@@ -13,13 +13,13 @@ AzCastBar_Config = {
 			0.8, -- [3]
 		},
 		["bottom"] = 197.0000237673518,
+		["showRank"] = false,
+		["left"] = 387.0000018626452,
 		["colFailed"] = {
 			1, -- [1]
 			0.5, -- [2]
 			0.5, -- [3]
 		},
-		["left"] = 387.0000018626452,
-		["showRank"] = false,
 	},
 	["PlayerAuras"] = {
 		["hideEnchants"] = false,
@@ -42,12 +42,12 @@ AzCastBar_Config = {
 			0.9, -- [3]
 		},
 		["bottom"] = 374.9999944120646,
-		["fullBarTimeless"] = false,
-		["showDebuffs"] = true,
-		["hideTracking"] = false,
 		["width"] = 958,
+		["showDebuffs"] = true,
 		["showPetAuras"] = false,
-		["bgColorAlpha"] = 0.2,
+		["fullBarTimeless"] = false,
+		["hideTracking"] = false,
+		["hideAuras"] = false,
 		["unit"] = "player",
 		["colBuff"] = {
 			0.4, -- [1]
@@ -59,7 +59,7 @@ AzCastBar_Config = {
 			0.8, -- [2]
 			0.2, -- [3]
 		},
-		["hideAuras"] = false,
+		["bgColorAlpha"] = 0.2,
 		["showEnchants"] = true,
 		["auraLabelFormat"] = "FULL",
 	},
@@ -109,133 +109,141 @@ AzCastBar_Config = {
 		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
 		["width"] = 573,
 		["nameFontFlags"] = "",
-		["anchorPoint"] = "LEFT",
-		["left"] = 780.6666035224489,
-		["colInterrupt"] = {
-			1, -- [1]
-			0.75, -- [2]
-			0.5, -- [3]
-		},
-		["mergeTrade"] = false,
-		["iconAnchor"] = "LEFT",
 		["colBackGround"] = {
 			1, -- [1]
 			0, -- [2]
 			0.5568627450980392, -- [3]
 			0, -- [4]
 		},
+		["iconAnchor"] = "LEFT",
+		["mergeTrade"] = false,
+		["colInterrupt"] = {
+			1, -- [1]
+			0.75, -- [2]
+			0.5, -- [3]
+		},
+		["left"] = 780.6666035224489,
+		["anchorPoint"] = "LEFT",
 		["iconOffset"] = 0,
 	},
-	["optionsBottom"] = 313.3891707848893,
+	["Mirror"] = {
+		["enabled"] = false,
+		["left"] = 387.0000018626452,
+		["colNormal"] = {
+			0.4, -- [1]
+			0.6, -- [2]
+			0.8, -- [3]
+		},
+		["bottom"] = 374.9999944120646,
+	},
 	["Focus"] = {
 		["strata"] = "MEDIUM",
 		["useSameBGTexture"] = true,
-		["left"] = 1500.331911995744,
 		["showSpark"] = false,
+		["left"] = 1500.331911995744,
+		["showLabel"] = true,
+		["anchorPoint"] = "LEFT",
+		["anchorOffset"] = 4,
 		["colNormal"] = {
 			1, -- [1]
 			0.9647058823529412, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["anchorPoint"] = "LEFT",
-		["anchorOffset"] = 4,
-		["nameLabelAlign"] = "CENTER",
-		["hideIconBorder"] = true,
-		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
-		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
-		["showTime"] = false,
-		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
-		["enabled"] = false,
-		["showTotalTime"] = false,
-		["colBackGround"] = {
-			1, -- [1]
-			0, -- [2]
-			0.5568627450980392, -- [3]
-			0, -- [4]
-		},
-		["iconAnchor"] = "LEFT",
-		["timeFontFace"] = "Fonts\\FRIZQT__.TTF",
-		["nameFontSize"] = 14,
-		["showRank"] = false,
-		["width"] = 178,
-		["nameFontFlags"] = "",
-		["colInterrupt"] = {
-			1, -- [1]
-			0.75, -- [2]
-			0.5, -- [3]
-		},
-		["colFailed"] = {
-			1, -- [1]
-			0.5, -- [2]
-			0.5, -- [3]
-		},
-		["bottom"] = 715.7773243095915,
-		["height"] = 35,
 		["colBackdrop"] = {
 			0, -- [1]
 			0, -- [2]
 			0, -- [3]
 			0.9, -- [4]
 		},
-		["showLabel"] = true,
+		["showTotalTime"] = false,
+		["bottom"] = 715.7773243095915,
+		["showTime"] = false,
+		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
+		["enabled"] = false,
+		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
+		["timeFontFace"] = "Fonts\\FRIZQT__.TTF",
+		["iconAnchor"] = "LEFT",
+		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
+		["colInterrupt"] = {
+			1, -- [1]
+			0.75, -- [2]
+			0.5, -- [3]
+		},
+		["showRank"] = false,
+		["width"] = 178,
+		["nameFontSize"] = 14,
+		["nameFontFlags"] = "",
+		["colFailed"] = {
+			1, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
+		},
+		["colBackGround"] = {
+			1, -- [1]
+			0, -- [2]
+			0.5568627450980392, -- [3]
+			0, -- [4]
+		},
+		["height"] = 35,
+		["hideIconBorder"] = true,
+		["nameLabelAlign"] = "CENTER",
 		["iconOffset"] = 0,
 	},
 	["Target"] = {
 		["strata"] = "MEDIUM",
 		["useSameBGTexture"] = true,
-		["showSpark"] = false,
 		["left"] = 489,
-		["nameLabelAlign"] = "CENTER",
+		["showSpark"] = false,
+		["anchorPoint"] = "LEFT",
 		["hideIconBorder"] = true,
 		["colInterrupt"] = {
 			1, -- [1]
 			0.75, -- [2]
 			0.5, -- [3]
 		},
+		["nameLabelAlign"] = "CENTER",
+		["showTime"] = false,
+		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
+		["bottom"] = 891.2219794399235,
+		["colBackdrop"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0.9, -- [4]
+		},
+		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
+		["enabled"] = false,
+		["showTotalTime"] = false,
+		["timeFontFace"] = "Fonts\\FRIZQT__.TTF",
+		["iconAnchor"] = "LEFT",
+		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
+		["anchorOffset"] = 4,
+		["showRank"] = false,
+		["width"] = 178,
+		["nameFontSize"] = 14,
+		["nameFontFlags"] = "",
+		["colFailed"] = {
+			1, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
+		},
+		["colBackGround"] = {
+			1, -- [1]
+			0, -- [2]
+			0.5568627450980392, -- [3]
+			0, -- [4]
+		},
+		["height"] = 35,
+		["showLabel"] = true,
 		["colNormal"] = {
 			1, -- [1]
 			0.9098039215686274, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["showLabel"] = true,
-		["showTotalTime"] = false,
-		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
-		["colBackdrop"] = {
-			0, -- [1]
-			0, -- [2]
-			0, -- [3]
-			0.9, -- [4]
-		},
-		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
-		["enabled"] = false,
-		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
-		["colBackGround"] = {
-			1, -- [1]
-			0, -- [2]
-			0.5568627450980392, -- [3]
-			0, -- [4]
-		},
-		["iconAnchor"] = "LEFT",
-		["timeFontFace"] = "Fonts\\FRIZQT__.TTF",
-		["nameFontSize"] = 14,
-		["showRank"] = false,
-		["width"] = 178,
-		["nameFontFlags"] = "",
-		["anchorOffset"] = 4,
-		["colFailed"] = {
-			1, -- [1]
-			0.5, -- [2]
-			0.5, -- [3]
-		},
-		["bottom"] = 891.2219794399235,
-		["height"] = 35,
-		["showTime"] = false,
-		["anchorPoint"] = "LEFT",
 		["iconOffset"] = 0,
 	},
-	["optionsLeft"] = 356.9454128267517,
 	["TargetAuras"] = {
 		["showTracking"] = false,
 		["shortBuffDuration"] = 30,
@@ -274,14 +282,6 @@ AzCastBar_Config = {
 		["showEnchants"] = false,
 		["auraLabelFormat"] = "FULL",
 	},
-	["Mirror"] = {
-		["enabled"] = false,
-		["colNormal"] = {
-			0.4, -- [1]
-			0.6, -- [2]
-			0.8, -- [3]
-		},
-		["left"] = 387.0000018626452,
-		["bottom"] = 374.9999944120646,
-	},
+	["optionsLeft"] = 356.9454128267517,
+	["optionsBottom"] = 313.3891707848893,
 }

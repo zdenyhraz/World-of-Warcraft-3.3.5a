@@ -1,10 +1,20 @@
 
 LoseControlDB = {
 	["version"] = 3.33,
+	["priorities"] = {
+		"Immune", -- [1]
+		"CC", -- [2]
+		"PvE", -- [3]
+		"Silence", -- [4]
+		"Disarm", -- [5]
+		"Root", -- [6]
+		"Snare", -- [7]
+	},
+	["noCooldownCount"] = false,
 	["frames"] = {
-		["arena4"] = {
-			["y"] = -729.8232973577701,
-			["x"] = 1327.51115597618,
+		["arena1"] = {
+			["y"] = -729.4666420381421,
+			["x"] = 1327.511296033246,
 			["point"] = "TOPLEFT",
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
@@ -16,9 +26,9 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 36,
 		},
-		["arena5"] = {
-			["y"] = -729.8232973577701,
-			["x"] = 1327.155691141616,
+		["arena3"] = {
+			["y"] = -730.178271992601,
+			["x"] = 1328.222225702373,
 			["point"] = "TOPLEFT",
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
@@ -30,10 +40,15 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 36,
 		},
-		["party4"] = {
-			["anchor"] = "Blizzard",
+		["party1"] = {
+			["enabled"] = 1,
+			["x"] = 219.5039996618935,
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["anchor"] = "None",
+			["y"] = -253.5093651879271,
 			["alpha"] = 1,
-			["size"] = 36,
+			["size"] = 56,
 		},
 		["party2"] = {
 			["enabled"] = 1,
@@ -75,28 +90,23 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 56,
 		},
-		["party1"] = {
-			["enabled"] = 1,
-			["x"] = 219.5039996618935,
-			["point"] = "TOPLEFT",
-			["relativePoint"] = "TOPLEFT",
-			["anchor"] = "None",
-			["y"] = -253.5093651879271,
+		["party4"] = {
+			["anchor"] = "Blizzard",
 			["alpha"] = 1,
-			["size"] = 56,
+			["size"] = 36,
 		},
-		["arena3"] = {
-			["y"] = -730.178271992601,
-			["x"] = 1328.222225702373,
+		["arena5"] = {
+			["y"] = -729.8232973577701,
+			["x"] = 1327.155691141616,
 			["point"] = "TOPLEFT",
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
 			["alpha"] = 1,
 			["size"] = 28,
 		},
-		["arena1"] = {
-			["y"] = -729.4666420381421,
-			["x"] = 1327.511296033246,
+		["arena4"] = {
+			["y"] = -729.8232973577701,
+			["x"] = 1327.51115597618,
 			["point"] = "TOPLEFT",
 			["relativePoint"] = "TOPLEFT",
 			["anchor"] = "None",
@@ -111,15 +121,5 @@ LoseControlDB = {
 		["Silence"] = true,
 		["Disarm"] = true,
 		["PvE"] = true,
-	},
-	["noCooldownCount"] = false,
-	["priorities"] = {
-		"Immune", -- [1]
-		"CC", -- [2]
-		"PvE", -- [3]
-		"Silence", -- [4]
-		"Disarm", -- [5]
-		"Root", -- [6]
-		"Snare", -- [7]
 	},
 }

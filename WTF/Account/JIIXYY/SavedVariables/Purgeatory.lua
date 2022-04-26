@@ -10,9 +10,9 @@ PurgeatoryDB = {
 		["Default"] = {
 			["reflectLocation"] = "party",
 			["groundingLocation"] = "party",
-			["interruptLocation"] = "party",
-			["dispelFailMsg"] = "Dispell failed :(",
 			["dispelSuccessMsg"] = "Dispelled *spell",
+			["dispelFailMsg"] = "Dispell failed :(",
+			["interruptLocation"] = "party",
 			["dispelLocation"] = "party",
 			["interruptMsg"] = "Interrupted *spell",
 		},

@@ -11,8 +11,8 @@ GladiusDB = {
 			["selectedBorder"] = false,
 			["drList"] = {
 				["CHARGE"] = false,
-				["SILENCE"] = true,
 				["DISARM"] = false,
+				["SILENCE"] = true,
 				["ENTRAPMENT"] = false,
 				["RANDOMROOT"] = false,
 			},

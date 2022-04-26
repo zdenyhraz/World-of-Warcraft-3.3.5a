@@ -45,17 +45,6 @@ MoveAnything_CharacterSettings = {
 				34.00000082363114, -- [5]
 			},
 		},
-		["PlayerFrame"] = {
-			["name"] = "PlayerFrame",
-			["scale"] = 1.46935067102876,
-			["pos"] = {
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				102.3884645498673, -- [4]
-				-119.9318976096421, -- [5]
-			},
-		},
 		["TargetFrame"] = {
 			["name"] = "TargetFrame",
 			["scale"] = 1.463220156263229,
@@ -65,6 +54,17 @@ MoveAnything_CharacterSettings = {
 				"TOPLEFT", -- [3]
 				329.8670247057793, -- [4]
 				-120.6621869560996, -- [5]
+			},
+		},
+		["PlayerFrame"] = {
+			["name"] = "PlayerFrame",
+			["scale"] = 1.46935067102876,
+			["pos"] = {
+				"TOPLEFT", -- [1]
+				"UIParent", -- [2]
+				"TOPLEFT", -- [3]
+				102.3884645498673, -- [4]
+				-119.9318976096421, -- [5]
 			},
 		},
 	},
