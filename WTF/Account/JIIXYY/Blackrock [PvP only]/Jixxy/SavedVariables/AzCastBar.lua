@@ -18,8 +18,8 @@ AzCastBar_Config = {
 			0.5, -- [2]
 			0.5, -- [3]
 		},
-		["showRank"] = false,
 		["left"] = 387.0000018626452,
+		["showRank"] = false,
 	},
 	["PlayerAuras"] = {
 		["hideEnchants"] = false,
@@ -105,12 +105,12 @@ AzCastBar_Config = {
 		["showTime"] = false,
 		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
 		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
-		["bottom"] = 50.333389023342,
+		["bottom"] = 95.88893255794058,
 		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
-		["width"] = 558,
+		["width"] = 573,
 		["nameFontFlags"] = "",
 		["anchorPoint"] = "LEFT",
-		["left"] = 787.8888562377813,
+		["left"] = 780.6666035224489,
 		["colInterrupt"] = {
 			1, -- [1]
 			0.75, -- [2]
@@ -132,39 +132,34 @@ AzCastBar_Config = {
 		["useSameBGTexture"] = true,
 		["left"] = 1500.331911995744,
 		["showSpark"] = false,
-		["nameLabelAlign"] = "CENTER",
-		["anchorPoint"] = "LEFT",
-		["showLabel"] = true,
 		["colNormal"] = {
 			1, -- [1]
 			0.9647058823529412, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
+		["anchorPoint"] = "LEFT",
+		["anchorOffset"] = 4,
+		["nameLabelAlign"] = "CENTER",
 		["hideIconBorder"] = true,
 		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
+		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
+		["showTime"] = false,
+		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
+		["enabled"] = false,
+		["showTotalTime"] = false,
 		["colBackGround"] = {
 			1, -- [1]
 			0, -- [2]
 			0.5568627450980392, -- [3]
 			0, -- [4]
 		},
-		["colBackdrop"] = {
-			0, -- [1]
-			0, -- [2]
-			0, -- [3]
-			0.9, -- [4]
-		},
-		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
-		["enabled"] = false,
-		["showTotalTime"] = false,
-		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
-		["bottom"] = 715.7773243095915,
+		["iconAnchor"] = "LEFT",
 		["timeFontFace"] = "Fonts\\FRIZQT__.TTF",
-		["nameFontFlags"] = "",
+		["nameFontSize"] = 14,
 		["showRank"] = false,
 		["width"] = 178,
-		["nameFontSize"] = 14,
+		["nameFontFlags"] = "",
 		["colInterrupt"] = {
 			1, -- [1]
 			0.75, -- [2]
@@ -175,10 +170,15 @@ AzCastBar_Config = {
 			0.5, -- [2]
 			0.5, -- [3]
 		},
-		["iconAnchor"] = "LEFT",
+		["bottom"] = 715.7773243095915,
 		["height"] = 35,
-		["showTime"] = false,
-		["anchorOffset"] = 4,
+		["colBackdrop"] = {
+			0, -- [1]
+			0, -- [2]
+			0, -- [3]
+			0.9, -- [4]
+		},
+		["showLabel"] = true,
 		["iconOffset"] = 0,
 	},
 	["Target"] = {
@@ -186,53 +186,53 @@ AzCastBar_Config = {
 		["useSameBGTexture"] = true,
 		["showSpark"] = false,
 		["left"] = 489,
+		["nameLabelAlign"] = "CENTER",
+		["hideIconBorder"] = true,
+		["colInterrupt"] = {
+			1, -- [1]
+			0.75, -- [2]
+			0.5, -- [3]
+		},
 		["colNormal"] = {
 			1, -- [1]
 			0.9098039215686274, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["anchorPoint"] = "LEFT",
-		["colInterrupt"] = {
-			1, -- [1]
-			0.75, -- [2]
-			0.5, -- [3]
-		},
-		["nameLabelAlign"] = "CENTER",
 		["showLabel"] = true,
 		["showTotalTime"] = false,
-		["colBackGround"] = {
-			1, -- [1]
-			0, -- [2]
-			0.5568627450980392, -- [3]
-			0, -- [4]
-		},
-		["showTime"] = false,
-		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
-		["enabled"] = false,
-		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
 		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
-		["bottom"] = 891.2219794399235,
-		["timeFontFace"] = "Fonts\\FRIZQT__.TTF",
-		["nameFontFlags"] = "",
-		["showRank"] = false,
-		["width"] = 178,
-		["nameFontSize"] = 14,
-		["anchorOffset"] = 4,
-		["colFailed"] = {
-			1, -- [1]
-			0.5, -- [2]
-			0.5, -- [3]
-		},
-		["iconAnchor"] = "LEFT",
-		["height"] = 35,
 		["colBackdrop"] = {
 			0, -- [1]
 			0, -- [2]
 			0, -- [3]
 			0.9, -- [4]
 		},
-		["hideIconBorder"] = true,
+		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
+		["enabled"] = false,
+		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
+		["colBackGround"] = {
+			1, -- [1]
+			0, -- [2]
+			0.5568627450980392, -- [3]
+			0, -- [4]
+		},
+		["iconAnchor"] = "LEFT",
+		["timeFontFace"] = "Fonts\\FRIZQT__.TTF",
+		["nameFontSize"] = 14,
+		["showRank"] = false,
+		["width"] = 178,
+		["nameFontFlags"] = "",
+		["anchorOffset"] = 4,
+		["colFailed"] = {
+			1, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
+		},
+		["bottom"] = 891.2219794399235,
+		["height"] = 35,
+		["showTime"] = false,
+		["anchorPoint"] = "LEFT",
 		["iconOffset"] = 0,
 	},
 	["optionsLeft"] = 356.9454128267517,

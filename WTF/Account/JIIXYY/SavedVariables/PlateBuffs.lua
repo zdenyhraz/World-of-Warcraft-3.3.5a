@@ -6,6 +6,7 @@ PB_DB = {
 	},
 	["profileKeys"] = {
 		["Jixxy - Blackrock [PvP only]"] = "Default",
+		["Juxxy - Frostmourne"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

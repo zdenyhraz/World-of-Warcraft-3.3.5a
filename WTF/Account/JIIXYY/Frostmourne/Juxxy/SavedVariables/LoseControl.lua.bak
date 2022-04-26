@@ -1,0 +1,106 @@
+
+LoseControlDB = {
+	["version"] = 3.33,
+	["priorities"] = {
+		"Immune", -- [1]
+		"CC", -- [2]
+		"PvE", -- [3]
+		"Silence", -- [4]
+		"Disarm", -- [5]
+		"Root", -- [6]
+		"Snare", -- [7]
+	},
+	["noCooldownCount"] = false,
+	["frames"] = {
+		["arena1"] = {
+			["anchor"] = "Blizzard",
+			["alpha"] = 1,
+			["size"] = 28,
+		},
+		["party3"] = {
+			["anchor"] = "Blizzard",
+			["enabled"] = true,
+			["alpha"] = 1,
+			["size"] = 36,
+		},
+		["arena3"] = {
+			["anchor"] = "Blizzard",
+			["alpha"] = 1,
+			["size"] = 28,
+		},
+		["pet"] = {
+			["anchor"] = "Blizzard",
+			["alpha"] = 1,
+			["size"] = 36,
+		},
+		["party1"] = {
+			["enabled"] = 1,
+			["x"] = 222.7040060082293,
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["anchor"] = "None",
+			["y"] = -254.5760398057502,
+			["alpha"] = 1,
+			["size"] = 52,
+		},
+		["party2"] = {
+			["enabled"] = 1,
+			["x"] = 221.9929012677695,
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["anchor"] = "None",
+			["y"] = -317.182196257563,
+			["alpha"] = 1,
+			["size"] = 52,
+		},
+		["player"] = {
+			["x"] = 0,
+			["point"] = "CENTER",
+			["relativePoint"] = "CENTER",
+			["anchor"] = "None",
+			["y"] = 110,
+			["alpha"] = 1,
+			["size"] = 36,
+		},
+		["arena2"] = {
+			["anchor"] = "Blizzard",
+			["alpha"] = 1,
+			["size"] = 28,
+		},
+		["focus"] = {
+			["anchor"] = "Blizzard",
+			["alpha"] = 1,
+			["size"] = 56,
+		},
+		["target"] = {
+			["anchor"] = "Blizzard",
+			["alpha"] = 1,
+			["size"] = 56,
+		},
+		["party4"] = {
+			["anchor"] = "Blizzard",
+			["enabled"] = 1,
+			["alpha"] = 1,
+			["size"] = 36,
+		},
+		["arena5"] = {
+			["anchor"] = "Blizzard",
+			["alpha"] = 1,
+			["size"] = 28,
+		},
+		["arena4"] = {
+			["anchor"] = "Blizzard",
+			["alpha"] = 1,
+			["size"] = 28,
+		},
+	},
+	["tracking"] = {
+		["Immune"] = true,
+		["CC"] = true,
+		["Snare"] = false,
+		["Silence"] = true,
+		["Root"] = true,
+		["Disarm"] = true,
+		["PvE"] = true,
+	},
+}

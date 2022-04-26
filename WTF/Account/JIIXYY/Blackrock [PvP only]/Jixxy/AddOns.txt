@@ -2,7 +2,7 @@ LibBabble-Class-3.0: enabled
 SpecIcons: disabled
 Masque: disabled
 ButtonFacade: enabled
-Masque_Caith: disabled
+Masque_Caith: enabled
 ClassPortraits: disabled
 ClassIcons: disabled
 Prat-3.0: disabled
@@ -50,8 +50,8 @@ OmniCC: enabled
 OmniCC_Config: enabled
 SafeQueue: enabled
 SnowfallKeyPress: enabled
-TidyPlates_Grey: enabled
-TidyPlates_Quatre: enabled
+TidyPlates_Grey: disabled
+TidyPlates_Quatre: disabled
 WeakAuras: enabled
 WeakAurasModelPaths: enabled
 WeakAurasOptions: enabled

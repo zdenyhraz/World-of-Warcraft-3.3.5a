@@ -1,0 +1,108 @@
+BINDINGMODE 0
+bind BUTTON3 CLICK BT4Button50:LeftButton
+bind X CLICK BT4Button33:LeftButton
+bind Z CLICK BT4Button55:LeftButton
+bind NUMLOCK NONE
+bind BUTTON4 CLICK BT4Button53:LeftButton
+bind INSERT TFONDOWN
+bind R ACTIONBUTTON5
+bind SHIFT-R CLICK BT4Button17:LeftButton
+bind 1 CLICK BT4Button109:LeftButton
+bind 2 CLICK BT4Button110:LeftButton
+bind 3 CLICK BT4Button111:LeftButton
+bind 4 CLICK BT4Button112:LeftButton
+bind 5 CLICK BT4Button113:LeftButton
+bind 6 NONE
+bind 7 NONE
+bind 8 NONE
+bind 9 NONE
+bind 0 NONE
+bind - NONE
+bind = NONE
+bind CTRL-F1 NONE
+bind CTRL-F2 NONE
+bind CTRL-F3 NONE
+bind CTRL-F4 NONE
+bind CTRL-F5 NONE
+bind CTRL-F6 NONE
+bind CTRL-F7 NONE
+bind CTRL-F8 NONE
+bind CTRL-F9 NONE
+bind CTRL-F10 NONE
+bind CTRL-1 NONE
+bind SHIFT-1 NONE
+bind SHIFT-2 CLICK BT4Button98:LeftButton
+bind SHIFT-3 MULTIACTIONBAR1BUTTON5
+bind SHIFT-4 MULTIACTIONBAR1BUTTON6
+bind SHIFT-5 NONE
+bind SHIFT-UP CAMERAZOOMIN
+bind SHIFT-MOUSEWHEELUP CLICK BT4Button31:LeftButton
+bind SHIFT-DOWN CAMERAZOOMOUT
+bind SHIFT-MOUSEWHEELDOWN CLICK BT4Button97:LeftButton
+bind TAB CLICK BT4Button108:LeftButton
+bind F1 CLICK BT4Button43:LeftButton
+bind SHIFT-F1 NONE
+bind F2 CLICK BT4Button44:LeftButton
+bind F3 CLICK BT4Button45:LeftButton
+bind F4 CLICK BT4Button100:LeftButton
+bind F5 CLICK BT4Button106:LeftButton
+bind G CLICK BT4Button27:LeftButton
+bind F CLICK BT4Button117:LeftButton
+bind T CLICK BT4Button120:LeftButton
+bind SHIFT-T CLICK BT4Button120:LeftButton
+bind F9 MULTICASTACTIONBUTTON4
+bind Y CLICK BT4Button55:LeftButton
+bind SHIFT-C MULTIACTIONBAR1BUTTON11
+bind CTRL-S CLICK BT4Button54:LeftButton
+bind MOUSEWHEELUP CLICK BT4Button16:LeftButton
+bind MOUSEWHEELDOWN CLICK BT4Button99:LeftButton
+bind END REPLY
+bind HOME REPLY
+bind CTRL-Q MULTIACTIONBAR3BUTTON5
+bind CTRL-W CLICK BT4Button29:LeftButton
+bind CTRL-E MULTIACTIONBAR1BUTTON7
+bind NUMPAD5 CLICK BT4Button51:LeftButton
+bind CTRL-MOUSEWHEELUP CLICK BT4Button41:LeftButton
+bind CTRL-MOUSEWHEELDOWN CLICK BT4Button40:LeftButton
+bind ; ACTIONBUTTON10
+bind ALT-S CLICK BT4Button36:LeftButton
+bind SHIFT-S CLICK BT4Button35:LeftButton
+bind ALT-MOUSEWHEELDOWN CLICK BT4Button39:LeftButton
+bind ALT-; CLICK BT4Button22:LeftButton
+bind ALT-1 CLICK BT4Button13:LeftButton
+bind SHIFT-W CLICK BT4Button114:LeftButton
+bind SHIFT-E CLICK BT4Button32:LeftButton
+bind ALT-Q CLICK BT4Button21:LeftButton
+bind SHIFT-Q ACTIONBUTTON9
+bind ALT-MOUSEWHEELUP CLICK BT4Button38:LeftButton
+bind ALT-E CLICK BT4Button34:LeftButton
+bind SHIFT-A ACTIONBUTTON12
+bind SHIFT-BUTTON3 ACTIONBUTTON7
+bind SHIFT-; NONE
+bind ALT-W CLICK BT4Button30:LeftButton
+bind ALT-BUTTON3 CLICK BT4Button19:LeftButton
+bind ALT-R CLICK BT4Button17:LeftButton
+bind ` ACTIONBUTTON10
+bind ALT-` CLICK BT4Button22:LeftButton
+bind SHIFT-` NONE
+bind ALT-D CLICK BT4Button23:LeftButton
+bind CTRL-; CLICK BT4Button59:LeftButton
+bind SHIFT-D ACTIONBUTTON11
+bind SHIFT-F CLICK BT4Button20:LeftButton
+bind ALT-F ACTIONBUTTON6
+bind CTRL-` CLICK BT4Button59:LeftButton
+bind ALT-T MULTIACTIONBAR4BUTTON5
+bind ALT-4 MULTIACTIONBAR4BUTTON3
+bind ALT-3 CLICK BT4Button15:LeftButton
+bind CTRL-F CLICK BT4Button18:LeftButton
+bind NUMPAD9 TOGGLESHEATH
+bind BUTTON5 TOGGLEAUTORUN
+bind ALT-2 CLICK BT4Button14:LeftButton
+bind ALT-A CLICK BT4Button24:LeftButton
+bind SHIFT-X CLICK BT4Button33:LeftButton
+bind ALT-BUTTON5 CLICK BT4Button42:LeftButton
+bind CTRL-BUTTON3 CLICK BT4Button58:LeftButton
+bind CTRL-BUTTON5 CLICK BT4Button118:LeftButton
+bind SHIFT-BUTTON5 CLICK BT4Button119:LeftButton
+bind NUMPAD7 NONE
+bind F6 CLICK BT4Button107:LeftButton

@@ -1,0 +1,63 @@
+MACRO 16777217 "banishf" INV_Misc_QuestionMark
+/cast [@focus] Banish
+END
+MACRO 16777227 "boltf" INV_Misc_QuestionMark
+/cast [@focus] Shadow Bolt
+END
+MACRO 16777235 "buff" INV_Misc_QuestionMark
+/cast [@player, mod:alt] Detect Invisibility
+/cast [@player, mod:alt] Fire Shield
+/cast [@mouseover] Detect Invisibility
+/cast [@mouseover] Fire Shield
+END
+MACRO 16777221 "coaf" INV_Misc_QuestionMark
+/cast [@focus] Curse of Agony
+END
+MACRO 16777219 "coef" INV_Misc_QuestionMark
+/cast [@focus] Curse of the Elements
+END
+MACRO 16777222 "coilf" INV_Misc_QuestionMark
+/cast [@focus] Death Coil
+END
+MACRO 16777220 "corrf" INV_Misc_QuestionMark
+/cast [@focus] Corruption
+END
+MACRO 16777218 "cotf" INV_Misc_QuestionMark
+/cast [@focus] Curse of Tongues
+END
+MACRO 16777223 "fearf" INV_Misc_QuestionMark
+/cast [@focus] Fear
+END
+MACRO 16777228 "hauntf" INV_Misc_QuestionMark
+/cast [@focus] Haunt
+END
+MACRO 16777224 "lock" Spell_Shadow_MindRot
+/cast [@mouseover,harm,nodead] [harm] [@target] Spell Lock
+/cast  [nomod] Sacrifice
+/cast [@target] !Seduction
+/petstay
+END
+MACRO 16777225 "lockf" INV_Misc_QuestionMark
+#showtooltip Spell Lock
+/cast [@focus] Spell Lock
+/cast [@focus] Seduction
+/cast Consume Shadows
+/petstay
+END
+MACRO 16777230 "spsf" INV_Misc_QuestionMark
+/cast [modifier:shift] Soul Fire; Searing Pain
+END
+MACRO 16777226 "stone" INV_Misc_QuestionMark
+/cast Create Spellstone(Rank 6)
+/use Grand Spellstone
+/use 16
+/click StaticPopup1Button1
+END
+MACRO 16777231 "summon" INV_Misc_QuestionMark
+/cast [mod:alt] Summon Imp(Summon)
+/cast [mod:ctrl] Summon Succubus(Summon)
+/cast Summon Felhunter(Summon)
+END
+MACRO 16777229 "uaf" INV_Misc_QuestionMark
+/cast [@focus] Unstable Affliction
+END

@@ -1,0 +1,228 @@
+
+DominosDB = {
+	["profileKeys"] = {
+		["Juxxy - Frostmourne"] = "Mage",
+	},
+	["profiles"] = {
+		["Mage"] = {
+			["minimapPos"] = 192.3126186196559,
+			["showMinimap"] = 1,
+			["showgrid"] = false,
+			["classStyle"] = {
+				"Svelte", -- [1]
+				0, -- [2]
+				false, -- [3]
+				{
+				}, -- [4]
+			},
+			["bagStyle"] = {
+				"Svelte", -- [1]
+				0, -- [2]
+				false, -- [3]
+				{
+				}, -- [4]
+			},
+			["ab"] = {
+				["style"] = {
+					"Svelte", -- [1]
+					0, -- [2]
+					false, -- [3]
+					{
+					}, -- [4]
+				},
+			},
+			["showMacroText"] = false,
+			["showBindingText"] = false,
+			["petStyle"] = {
+				"Svelte", -- [1]
+				0, -- [2]
+				false, -- [3]
+				{
+				}, -- [4]
+			},
+			["frames"] = {
+				{
+					["point"] = "BOTTOM",
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 0,
+					["pages"] = {
+						["MAGE"] = {
+							["[bar:6]"] = 5,
+							["[bar:5]"] = 4,
+							["[bar:3]"] = 2,
+							["[bar:4]"] = 3,
+							["[bar:2]"] = 1,
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [1]
+				{
+					["point"] = "BOTTOM",
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 40,
+					["pages"] = {
+						["MAGE"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [2]
+				{
+					["point"] = "BOTTOM",
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 80,
+					["pages"] = {
+						["MAGE"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [3]
+				{
+					["point"] = "BOTTOM",
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 120,
+					["pages"] = {
+						["MAGE"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [4]
+				{
+					["point"] = "BOTTOM",
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 160,
+					["pages"] = {
+						["MAGE"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [5]
+				{
+					["point"] = "BOTTOM",
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 200,
+					["pages"] = {
+						["MAGE"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [6]
+				{
+					["point"] = "BOTTOM",
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 240,
+					["pages"] = {
+						["MAGE"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [7]
+				{
+					["point"] = "BOTTOM",
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 280,
+					["pages"] = {
+						["MAGE"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [8]
+				{
+					["point"] = "BOTTOM",
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 320,
+					["pages"] = {
+						["MAGE"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [9]
+				{
+					["point"] = "BOTTOMRIGHT",
+					["scale"] = 1,
+					["anchor"] = "9TL",
+					["padW"] = 2,
+					["x"] = -826.6665262448682,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 360.0000224310145,
+					["pages"] = {
+						["MAGE"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [10]
+				["cast"] = {
+					["y"] = 30,
+					["x"] = 0,
+					["showText"] = true,
+					["point"] = "CENTER",
+				},
+				["menu"] = {
+					["y"] = 0,
+					["x"] = -244,
+					["point"] = "BOTTOMRIGHT",
+				},
+				["roll"] = {
+					["point"] = "LEFT",
+					["spacing"] = 2,
+					["numButtons"] = 4,
+					["columns"] = 1,
+				},
+				["xp"] = {
+					["y"] = -32,
+					["x"] = 0,
+					["point"] = "TOP",
+					["height"] = 14,
+					["texture"] = "blizzard",
+					["alwaysShowText"] = true,
+					["width"] = 0.75,
+				},
+				["bags"] = {
+					["numButtons"] = 6,
+					["point"] = "BOTTOMRIGHT",
+					["spacing"] = 2,
+				},
+				["pet"] = {
+					["y"] = -32,
+					["x"] = 0,
+					["point"] = "CENTER",
+					["spacing"] = 6,
+				},
+				["vehicle"] = {
+					["y"] = 0,
+					["x"] = -244,
+					["point"] = "CENTER",
+					["numButtons"] = 3,
+				},
+			},
+		},
+	},
+}
+DominosVersion = "1.18.6"

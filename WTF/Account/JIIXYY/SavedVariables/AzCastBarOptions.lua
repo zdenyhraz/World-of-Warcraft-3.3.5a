@@ -14,13 +14,13 @@ AzCastBar_Profiles = {
 				0.8, -- [3]
 			},
 			["bottom"] = 197.0000237673518,
+			["left"] = 387.0000018626452,
+			["showRank"] = false,
 			["colFailed"] = {
 				1, -- [1]
 				0.5, -- [2]
 				0.5, -- [3]
 			},
-			["left"] = 387.0000018626452,
-			["showRank"] = false,
 		},
 		["PlayerAuras"] = {
 			["hideEnchants"] = false,
@@ -44,11 +44,11 @@ AzCastBar_Profiles = {
 			},
 			["bottom"] = 374.9999944120646,
 			["showDebuffs"] = true,
-			["hideTracking"] = false,
-			["fullBarTimeless"] = false,
 			["showPetAuras"] = false,
+			["fullBarTimeless"] = false,
+			["hideTracking"] = false,
 			["hideAuras"] = false,
-			["bgColorAlpha"] = 0.2,
+			["unit"] = "player",
 			["colBuff"] = {
 				0.4, -- [1]
 				0.6, -- [2]
@@ -59,12 +59,21 @@ AzCastBar_Profiles = {
 				0.8, -- [2]
 				0.2, -- [3]
 			},
-			["unit"] = "player",
+			["bgColorAlpha"] = 0.2,
 			["showEnchants"] = true,
 			["auraLabelFormat"] = "FULL",
 		},
 		["optionsLeft"] = 667.5004938584498,
-		["optionsBottom"] = 404.5001090434533,
+		["Mirror"] = {
+			["enabled"] = false,
+			["left"] = 387.0000018626452,
+			["colNormal"] = {
+				0.4, -- [1]
+				0.6, -- [2]
+				0.8, -- [3]
+			},
+			["bottom"] = 374.9999944120646,
+		},
 		["Focus"] = {
 			["enabled"] = false,
 			["colInterrupt"] = {
@@ -78,13 +87,13 @@ AzCastBar_Profiles = {
 				0.8, -- [3]
 			},
 			["bottom"] = 223.0000081211327,
+			["left"] = 387.0000018626452,
+			["showRank"] = false,
 			["colFailed"] = {
 				1, -- [1]
 				0.5, -- [2]
 				0.5, -- [3]
 			},
-			["left"] = 387.0000018626452,
-			["showRank"] = false,
 		},
 		["Target"] = {
 			["enabled"] = false,
@@ -99,59 +108,13 @@ AzCastBar_Profiles = {
 				0.8, -- [3]
 			},
 			["bottom"] = 248.9999924749137,
-			["colFailed"] = {
-				1, -- [1]
-				0.5, -- [2]
-				0.5, -- [3]
-			},
 			["left"] = 387.0000018626452,
 			["showRank"] = false,
-		},
-		["Player"] = {
-			["showSpellTarget"] = false,
-			["colTimeLabel"] = {
-				1, -- [1]
-				0.82, -- [2]
-				0, -- [3]
-			},
-			["timeOffsetY"] = -20,
-			["anchorOffset"] = 4,
-			["colNormal"] = {
-				0.4, -- [1]
-				0.6, -- [2]
-				0.8, -- [3]
-			},
-			["timeOffsetX"] = -15,
-			["showTime"] = true,
-			["timeLabelAlign"] = "CENTER",
-			["mergeTrade"] = false,
-			["hideIconBorder"] = false,
-			["iconAnchor"] = "LEFT",
-			["left"] = 849.4999597541096,
-			["colInterrupt"] = {
-				1, -- [1]
-				0.75, -- [2]
-				0.5, -- [3]
-			},
-			["showRank"] = false,
-			["width"] = 32,
-			["colSafezone"] = {
-				0.3, -- [1]
-				0.8, -- [2]
-				0.3, -- [3]
-				0.6, -- [4]
-			},
-			["anchorPoint"] = "LEFT",
 			["colFailed"] = {
 				1, -- [1]
 				0.5, -- [2]
 				0.5, -- [3]
 			},
-			["showLabel"] = false,
-			["height"] = 32,
-			["safeZone"] = false,
-			["bottom"] = 65.83276926398439,
-			["iconOffset"] = 0,
 		},
 		["TargetAuras"] = {
 			["bgColorAlpha"] = 0.2,
@@ -191,15 +154,52 @@ AzCastBar_Profiles = {
 			["showEnchants"] = false,
 			["auraLabelFormat"] = "FULL",
 		},
-		["Mirror"] = {
-			["enabled"] = false,
+		["Player"] = {
+			["showSpellTarget"] = false,
+			["colTimeLabel"] = {
+				1, -- [1]
+				0.82, -- [2]
+				0, -- [3]
+			},
+			["timeOffsetY"] = -20,
+			["anchorOffset"] = 4,
 			["colNormal"] = {
 				0.4, -- [1]
 				0.6, -- [2]
 				0.8, -- [3]
 			},
-			["left"] = 387.0000018626452,
-			["bottom"] = 374.9999944120646,
+			["timeOffsetX"] = -15,
+			["showTime"] = true,
+			["timeLabelAlign"] = "CENTER",
+			["mergeTrade"] = false,
+			["iconAnchor"] = "LEFT",
+			["bottom"] = 65.83276926398439,
+			["safeZone"] = false,
+			["colInterrupt"] = {
+				1, -- [1]
+				0.75, -- [2]
+				0.5, -- [3]
+			},
+			["showRank"] = false,
+			["width"] = 32,
+			["showLabel"] = false,
+			["anchorPoint"] = "LEFT",
+			["colFailed"] = {
+				1, -- [1]
+				0.5, -- [2]
+				0.5, -- [3]
+			},
+			["colSafezone"] = {
+				0.3, -- [1]
+				0.8, -- [2]
+				0.3, -- [3]
+				0.6, -- [4]
+			},
+			["height"] = 32,
+			["left"] = 849.4999597541096,
+			["hideIconBorder"] = false,
+			["iconOffset"] = 0,
 		},
+		["optionsBottom"] = 404.5001090434533,
 	},
 }

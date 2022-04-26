@@ -52,3 +52,6 @@ END
 MACRO 179 "target" Spell_Shadow_SpectralSight
 /targetenemyplayer
 END
+MACRO 191 "targetm" Ability_Hunter_MasterMarksman
+/targetenemy
+END

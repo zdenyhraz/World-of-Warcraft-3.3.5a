@@ -3,11 +3,127 @@ Bartender4DB = {
 	["namespaces"] = {
 		["ActionBars"] = {
 			["profiles"] = {
+				["Jixxys - Blackrock [PvP only]"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4999101049737,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.4999419734273,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.4999913490142,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.4999882032012,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.49998505738813,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49998191157511,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Ggbtwxd - Blackrock [PvP only]"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4999101049737,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.4999419734273,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.4999913490142,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.4999882032012,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.49998505738813,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49998191157511,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
 				["main"] = {
 					["actionbars"] = {
 						{
 							["skin"] = {
-								["ID"] = "Svelte Square Shadow",
+								["ID"] = "Svelte",
 								["Backdrop"] = false,
 							},
 							["version"] = 3,
@@ -22,7 +138,7 @@ Bartender4DB = {
 						}, -- [1]
 						{
 							["skin"] = {
-								["ID"] = "Svelte Square Shadow",
+								["ID"] = "Svelte",
 								["Backdrop"] = false,
 							},
 							["version"] = 3,
@@ -38,7 +154,7 @@ Bartender4DB = {
 						}, -- [2]
 						{
 							["skin"] = {
-								["ID"] = "Svelte Square Shadow",
+								["ID"] = "Svelte",
 								["Backdrop"] = false,
 							},
 							["version"] = 3,
@@ -54,7 +170,7 @@ Bartender4DB = {
 						}, -- [3]
 						{
 							["skin"] = {
-								["ID"] = "Svelte Square Shadow",
+								["ID"] = "Svelte",
 								["Backdrop"] = false,
 							},
 							["version"] = 3,
@@ -70,7 +186,7 @@ Bartender4DB = {
 						}, -- [4]
 						{
 							["skin"] = {
-								["ID"] = "Svelte Square Shadow",
+								["ID"] = "Svelte",
 								["Backdrop"] = false,
 							},
 							["version"] = 3,
@@ -86,7 +202,7 @@ Bartender4DB = {
 						}, -- [5]
 						{
 							["skin"] = {
-								["ID"] = "Svelte Square Shadow",
+								["ID"] = "Svelte Shadow",
 								["Backdrop"] = false,
 							},
 							["enabled"] = false,
@@ -127,19 +243,23 @@ Bartender4DB = {
 						}, -- [8]
 						{
 							["skin"] = {
-								["ID"] = "Zoomed",
+								["ID"] = "Svelte",
 								["Backdrop"] = false,
 							},
+							["enabled"] = true,
+							["hidehotkey"] = true,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 243.1998520647236,
-								["x"] = -489.8333431696979,
-								["point"] = "RIGHT",
+								["y"] = 96,
+								["x"] = -286.6500139853424,
+								["point"] = "BOTTOM",
+								["scale"] = 1.300000071525574,
 							},
+							["padding"] = 0,
 						}, -- [9]
 						{
 							["skin"] = {
-								["ID"] = "Svelte Square Shadow",
+								["ID"] = "Svelte",
 								["Backdrop"] = false,
 							},
 							["enabled"] = true,
@@ -158,10 +278,86 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Juxxy - Frostmourne"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4999101049737,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.4999419734273,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.4999913490142,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.4999882032012,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.49998505738813,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49998191157511,
+								["x"] = -231.5001149931431,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
+				["Jixxys - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -188.8000917427289,
+						["point"] = "CENTER",
+						["y"] = 42.39993347118468,
+					},
+				},
+				["Ggbtwxd - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -188.8000917427289,
+						["point"] = "CENTER",
+						["y"] = 42.39993347118468,
+					},
+				},
 				["main"] = {
 					["enabled"] = false,
 					["version"] = 3,
@@ -172,18 +368,55 @@ Bartender4DB = {
 						["scale"] = 0.800000011920929,
 					},
 					["skin"] = {
-						["ID"] = "Zoomed",
+						["ID"] = "Svelte Shadow",
 						["Backdrop"] = false,
+					},
+				},
+				["Juxxy - Frostmourne"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.39993347118468,
+						["x"] = -188.8000917427289,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
 					},
 				},
 			},
 		},
 		["XPBar"] = {
 		},
+		["MultiCast"] = {
+			["profiles"] = {
+				["Jixxys - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 19.50000530001114,
+						["x"] = -114.5000131645436,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
 		["BlizzardArt"] = {
 		},
 		["BagBar"] = {
 			["profiles"] = {
+				["Jixxys - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.500081209846826,
+						["x"] = 58.50008592856648,
+						["point"] = "CENTER",
+					},
+				},
+				["Ggbtwxd - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.500081209846826,
+						["x"] = 58.50008592856648,
+						["point"] = "CENTER",
+					},
+				},
 				["main"] = {
 					["enabled"] = false,
 					["position"] = {
@@ -192,15 +425,39 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 					["skin"] = {
-						["ID"] = "Zoomed",
+						["ID"] = "Svelte Shadow",
 						["Backdrop"] = false,
 					},
 					["version"] = 3,
+				},
+				["Juxxy - Frostmourne"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.500081209846826,
+						["x"] = 58.50008592856648,
+						["point"] = "CENTER",
+					},
 				},
 			},
 		},
 		["StanceBar"] = {
 			["profiles"] = {
+				["Jixxys - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99998926320336,
+						["x"] = -82.50001972971859,
+						["point"] = "CENTER",
+					},
+				},
+				["Ggbtwxd - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.25001868681318,
+						["x"] = -159.7499653105726,
+						["point"] = "CENTER",
+					},
+				},
 				["main"] = {
 					["version"] = 3,
 					["position"] = {
@@ -209,14 +466,38 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 					["skin"] = {
-						["ID"] = "Svelte Square Shadow",
+						["ID"] = "Svelte",
 						["Backdrop"] = false,
+					},
+				},
+				["Juxxy - Frostmourne"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99998926320336,
+						["x"] = -82.50001972971859,
+						["point"] = "CENTER",
 					},
 				},
 			},
 		},
 		["Vehicle"] = {
 			["profiles"] = {
+				["Jixxys - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.50003374910273,
+						["x"] = 53.50011868605407,
+						["point"] = "CENTER",
+					},
+				},
+				["Ggbtwxd - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.50003374910273,
+						["x"] = 53.50011868605407,
+						["point"] = "CENTER",
+					},
+				},
 				["main"] = {
 					["version"] = 3,
 					["position"] = {
@@ -225,14 +506,38 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 					["skin"] = {
-						["ID"] = "Svelte Square Shadow",
+						["ID"] = "Svelte",
 						["Backdrop"] = false,
+					},
+				},
+				["Juxxy - Frostmourne"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.50003374910273,
+						["x"] = 53.50011868605407,
+						["point"] = "CENTER",
 					},
 				},
 			},
 		},
 		["PetBar"] = {
 			["profiles"] = {
+				["Jixxys - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.50000188064917,
+						["x"] = -163.4998882210571,
+						["point"] = "CENTER",
+					},
+				},
+				["Ggbtwxd - Blackrock [PvP only]"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.50000188064917,
+						["x"] = -163.4998882210571,
+						["point"] = "CENTER",
+					},
+				},
 				["main"] = {
 					["enabled"] = false,
 					["version"] = 3,
@@ -242,8 +547,16 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 					["skin"] = {
-						["ID"] = "Zoomed",
+						["ID"] = "Svelte Shadow",
 						["Backdrop"] = false,
+					},
+				},
+				["Juxxy - Frostmourne"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.50000188064917,
+						["x"] = -163.4998882210571,
+						["point"] = "CENTER",
 					},
 				},
 			},
@@ -253,11 +566,23 @@ Bartender4DB = {
 	},
 	["profileKeys"] = {
 		["Jixxy - Blackrock [PvP only]"] = "main",
+		["Ggbtwxd - Blackrock [PvP only]"] = "Ggbtwxd - Blackrock [PvP only]",
+		["Jixxys - Blackrock [PvP only]"] = "Jixxys - Blackrock [PvP only]",
+		["Juxxy - Frostmourne"] = "main",
 	},
 	["profiles"] = {
+		["Jixxys - Blackrock [PvP only]"] = {
+		},
+		["Ggbtwxd - Blackrock [PvP only]"] = {
+		},
 		["main"] = {
 			["minimapIcon"] = {
-				["minimapPos"] = 188.2108650328765,
+				["minimapPos"] = 213.4482430176155,
+			},
+		},
+		["Juxxy - Frostmourne"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 185.1577177828404,
 			},
 		},
 	},
