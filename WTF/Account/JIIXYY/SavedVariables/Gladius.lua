@@ -2,6 +2,7 @@
 GladiusDB = {
 	["profileKeys"] = {
 		["Jixxy - Blackrock [PvP only]"] = "main",
+		["Juxxy - Frostmourne"] = "main",
 	},
 	["profiles"] = {
 		["main"] = {
@@ -43,6 +44,8 @@ GladiusDB = {
 				["a"] = 0,
 			},
 			["barBottomMargin"] = 0,
+		},
+		["Juxxy - Frostmourne"] = {
 		},
 	},
 }

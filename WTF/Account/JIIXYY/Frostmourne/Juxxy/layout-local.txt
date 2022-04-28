@@ -1,9 +1,9 @@
 Version: 1
 Frame: InterfaceOptionsFrame
 FrameLevel: 7
-Anchor: RIGHT
-X: -244
-Y: 46
+Anchor: CENTER
+X: 0
+Y: 0
 W: 858
 H: 660
 Frame: LootFrame

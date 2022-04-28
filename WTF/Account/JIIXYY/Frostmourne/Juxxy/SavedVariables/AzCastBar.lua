@@ -1,68 +1,5 @@
 
 AzCastBar_Config = {
-	["Pet"] = {
-		["enabled"] = false,
-		["colInterrupt"] = {
-			1, -- [1]
-			0.75, -- [2]
-			0.5, -- [3]
-		},
-		["colNormal"] = {
-			0.4, -- [1]
-			0.6, -- [2]
-			0.8, -- [3]
-		},
-		["bottom"] = 197.0000237673518,
-		["showRank"] = false,
-		["left"] = 387.0000018626452,
-		["colFailed"] = {
-			1, -- [1]
-			0.5, -- [2]
-			0.5, -- [3]
-		},
-	},
-	["PlayerAuras"] = {
-		["hideEnchants"] = false,
-		["showTracking"] = false,
-		["shortBuffDuration"] = 30,
-		["showBuffs"] = true,
-		["left"] = 387.0000018626452,
-		["selfAurasOnly"] = false,
-		["defaultDebuffColors"] = true,
-		["showStealable"] = false,
-		["colDebuff"] = {
-			1, -- [1]
-			0.5, -- [2]
-			0.5, -- [3]
-		},
-		["enabled"] = false,
-		["colEnchant"] = {
-			0.6, -- [1]
-			0.2, -- [2]
-			0.9, -- [3]
-		},
-		["bottom"] = 469,
-		["width"] = 958,
-		["showDebuffs"] = true,
-		["showPetAuras"] = false,
-		["fullBarTimeless"] = false,
-		["hideTracking"] = false,
-		["hideAuras"] = false,
-		["unit"] = "player",
-		["colBuff"] = {
-			0.4, -- [1]
-			0.6, -- [2]
-			0.8, -- [3]
-		},
-		["colTimeOut"] = {
-			0.8, -- [1]
-			0.8, -- [2]
-			0.2, -- [3]
-		},
-		["bgColorAlpha"] = 0.2,
-		["showEnchants"] = true,
-		["auraLabelFormat"] = "FULL",
-	},
 	["Player"] = {
 		["useSameBGTexture"] = true,
 		["colSafezone"] = {
@@ -105,9 +42,9 @@ AzCastBar_Config = {
 		["showTime"] = false,
 		["texture"] = "Interface\\Addons\\AzCastBar\\Textures\\HorizontalFade",
 		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
-		["bottom"] = 96,
+		["bottom"] = 95.88893255794058,
 		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
-		["width"] = 558,
+		["width"] = 573,
 		["nameFontFlags"] = "",
 		["colBackGround"] = {
 			1, -- [1]
@@ -117,39 +54,24 @@ AzCastBar_Config = {
 		},
 		["iconAnchor"] = "LEFT",
 		["mergeTrade"] = false,
+		["left"] = 780.6666035224489,
+		["anchorPoint"] = "LEFT",
 		["colInterrupt"] = {
 			1, -- [1]
 			0.75, -- [2]
 			0.5, -- [3]
 		},
-		["left"] = 787.8888562377813,
-		["anchorPoint"] = "LEFT",
 		["iconOffset"] = 0,
-	},
-	["Mirror"] = {
-		["enabled"] = false,
-		["left"] = 387.0000018626452,
-		["colNormal"] = {
-			0.4, -- [1]
-			0.6, -- [2]
-			0.8, -- [3]
-		},
-		["bottom"] = 374.9999944120646,
 	},
 	["Focus"] = {
 		["strata"] = "MEDIUM",
 		["useSameBGTexture"] = true,
-		["showSpark"] = false,
 		["left"] = 1500.331911995744,
+		["showSpark"] = false,
 		["showLabel"] = true,
 		["anchorPoint"] = "LEFT",
 		["anchorOffset"] = 4,
-		["colNormal"] = {
-			1, -- [1]
-			0.9647058823529412, -- [2]
-			0, -- [3]
-			1, -- [4]
-		},
+		["nameLabelAlign"] = "CENTER",
 		["colBackdrop"] = {
 			0, -- [1]
 			0, -- [2]
@@ -186,23 +108,33 @@ AzCastBar_Config = {
 			0, -- [4]
 		},
 		["height"] = 35,
+		["colNormal"] = {
+			1, -- [1]
+			0.9647058823529412, -- [2]
+			0, -- [3]
+			1, -- [4]
+		},
 		["hideIconBorder"] = true,
-		["nameLabelAlign"] = "CENTER",
 		["iconOffset"] = 0,
 	},
 	["Target"] = {
 		["strata"] = "MEDIUM",
 		["useSameBGTexture"] = true,
-		["left"] = 489,
 		["showSpark"] = false,
-		["anchorPoint"] = "LEFT",
-		["hideIconBorder"] = true,
+		["left"] = 489,
 		["colInterrupt"] = {
 			1, -- [1]
 			0.75, -- [2]
 			0.5, -- [3]
 		},
-		["nameLabelAlign"] = "CENTER",
+		["anchorPoint"] = "LEFT",
+		["showLabel"] = true,
+		["colNormal"] = {
+			1, -- [1]
+			0.9098039215686274, -- [2]
+			0, -- [3]
+			1, -- [4]
+		},
 		["showTime"] = false,
 		["bgFile"] = "Interface\\Buttons\\WHITE8X8",
 		["bottom"] = 891.2219794399235,
@@ -235,53 +167,31 @@ AzCastBar_Config = {
 			0, -- [4]
 		},
 		["height"] = 35,
-		["showLabel"] = true,
-		["colNormal"] = {
-			1, -- [1]
-			0.9098039215686274, -- [2]
-			0, -- [3]
-			1, -- [4]
-		},
+		["nameLabelAlign"] = "CENTER",
+		["hideIconBorder"] = true,
 		["iconOffset"] = 0,
 	},
-	["TargetAuras"] = {
-		["showTracking"] = false,
-		["shortBuffDuration"] = 30,
-		["showBuffs"] = true,
-		["left"] = 387.0000018626452,
-		["selfAurasOnly"] = true,
-		["defaultDebuffColors"] = true,
-		["showStealable"] = false,
-		["colDebuff"] = {
+	["optionsLeft"] = 356.9454128267517,
+	["optionsBottom"] = 313.3891707848893,
+	["Pet"] = {
+		["enabled"] = false,
+		["colInterrupt"] = {
 			1, -- [1]
-			0.5, -- [2]
+			0.75, -- [2]
 			0.5, -- [3]
 		},
-		["enabled"] = false,
-		["colEnchant"] = {
-			0.6, -- [1]
-			0.2, -- [2]
-			0.9, -- [3]
-		},
-		["bottom"] = 374.9999944120646,
-		["showDebuffs"] = true,
-		["fullBarTimeless"] = false,
-		["showPetAuras"] = false,
-		["bgColorAlpha"] = 0.2,
-		["colBuff"] = {
+		["colNormal"] = {
 			0.4, -- [1]
 			0.6, -- [2]
 			0.8, -- [3]
 		},
-		["colTimeOut"] = {
-			0.8, -- [1]
-			0.8, -- [2]
-			0.2, -- [3]
+		["bottom"] = 197.0000237673518,
+		["showRank"] = false,
+		["left"] = 387.0000018626452,
+		["colFailed"] = {
+			1, -- [1]
+			0.5, -- [2]
+			0.5, -- [3]
 		},
-		["unit"] = "target",
-		["showEnchants"] = false,
-		["auraLabelFormat"] = "FULL",
 	},
-	["optionsLeft"] = 356.9454128267517,
-	["optionsBottom"] = 313.3891707848893,
 }

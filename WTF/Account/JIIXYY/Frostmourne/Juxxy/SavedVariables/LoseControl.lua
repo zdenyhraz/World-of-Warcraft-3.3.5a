@@ -1,6 +1,14 @@
 
 LoseControlDB = {
 	["version"] = 3.33,
+	["tracking"] = {
+		["Immune"] = true,
+		["CC"] = true,
+		["Snare"] = false,
+		["Silence"] = true,
+		["Disarm"] = true,
+		["PvE"] = true,
+	},
 	["frames"] = {
 		["arena4"] = {
 			["y"] = -729.8232973577701,
@@ -103,14 +111,6 @@ LoseControlDB = {
 			["alpha"] = 1,
 			["size"] = 28,
 		},
-	},
-	["tracking"] = {
-		["Immune"] = true,
-		["CC"] = true,
-		["Snare"] = false,
-		["Silence"] = true,
-		["Disarm"] = true,
-		["PvE"] = true,
 	},
 	["noCooldownCount"] = false,
 	["priorities"] = {
