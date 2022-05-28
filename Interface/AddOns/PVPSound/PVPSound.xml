@@ -1,0 +1,56 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ C:ProjectsWoWBinInterfaceFrameXMLUI.xsd">
+<Script file="Localization.lua"/>
+<Script file="PVPSound.lua"/>
+<Script file="PVPSound_DataShare.lua"/>
+<Script file="PVPSound_PaybackSound.lua"/>
+<Script file="PVPSound_SoundEngine.lua"/>
+<Script file="PVPSound_SoundLengths.lua"/>
+    <Frame name="PVPSound_Frame">
+        <Scripts>
+            <OnLoad>
+                PVPSound_OnLoad()
+            </OnLoad>
+			 <OnEvent function="PVPSound_OnEvent"/>
+        </Scripts>
+    </Frame>
+	<Frame name="PVPSound_DataFrame">
+        <Scripts>
+            <OnLoad>
+                PVPSound_DataOnLoad()
+            </OnLoad>
+			 <OnEvent function="PVPSound_DataOnEvent"/>
+        </Scripts>
+    </Frame>
+	<Frame name="PVPSound_Paysound_Frame">
+		<Scripts>
+			<OnLoad>
+				self.TimeSinceLastPayUpdate = 0
+			</OnLoad>
+			<OnUpdate function="PVPSound_UpdatePaySound"/>
+		</Scripts>
+	</Frame>
+	<Frame name="PVPSound_Retribution_Frame">
+		<Scripts>
+			<OnLoad>
+				self.TimeSinceLastRetUpdate = 0
+			</OnLoad>
+			<OnUpdate function="PVPSound_UpdateRetSound"/>
+		</Scripts>
+	</Frame>
+	<Frame name="PVPSound_SoundEngine_Frame">
+		<Scripts>
+			<OnLoad>
+				self.TimeSinceLastUpdate = 0
+			</OnLoad>
+			<OnUpdate function="PVPSound_UpdateSoundEngine"/>
+		</Scripts>
+	</Frame>
+	<Frame name="PVPSound_SoundKillEngine_Frame">
+		<Scripts>
+			<OnLoad>
+				self.TimeSinceLastKillUpdate = 0
+			</OnLoad>
+			<OnUpdate function="PVPSound_UpdateKillSoundEngine"/>
+		</Scripts>
+	</Frame>
+</Ui>

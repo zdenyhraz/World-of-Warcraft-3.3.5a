@@ -1,0 +1,263 @@
+* 3.6.1
+Fixed the first base captured bug in EOTS. Damn 0s.
+Also fixed a nasty typo bug in EOTS.
+Some TB Tower Destroyed nil fixes.
+Smaller WG Tower changes.
+Smaller SOTA changes.
+
+* 3.6.0
+WSG and TP score fixes.
+Smaller EOTS fixes.
+Smaller PaybackSound fixes.
+Changed some file names.
+Some smaller note clarifications.
+Code fixes.
+
+* 3.5.9
+Adde new frFR localizaton phrases.
+Fixed a Team Dominating bug with AB and TBFG.
+Fixed some nil return error with AB and TBFG.
+
+* 3.5.8
+Fixed the first tower destroyed bug in TB.
+Fixed playsounds.
+Fixed RBG faction playsounds.
+Fixed an IOC gate destroy bug.
+Smaller SoundEngine fixes.
+Smaller Payback- and RetributionQueue fixes.
+Removed one unnecessary event.
+Removed some unnecessary localization phrases.
+Added new sounds to AB.
+Added new sounds to TBFG.
+Added new sounds to SOTA.
+Added new sounds to EOTS.
+Added new sounds to IOC.
+Added new sounds to AV.
+Added new sounds to TB.
+Added new sounds to WG.
+Changed some sound in AB.
+Changed some sound in TBFG.
+Changed some sound in SOTA.
+Changed some sound in EOTS.
+Changed some sound in IOC.
+Changed some sound in AV.
+Changed some sound in TB.
+Changed some sound in WG.
+Renamed lot of file names.
+Changed long file names.
+
+* 3.5.7
+Localization phrase hotfixes.
+
+* 3.5.6
+Added Licence.txt.
+Changed Default SoundPack path (UT3) to allow to make different SoundPacks. Currently have an idea for 4+4 different SoundPacks.
+Added Data Shareing. Kills for Crossrealms, Deaths for Crossrealms and Raid and Party members.
+Data Shareing is not optionable yet, and only works if you have Emotes or Death messages enabled.
+Added Kill Data Share for nonCrossrealms if they Emote is toggled off or Emote is on but in Emotemode.
+Death messages now only shows player's name and hides the server's name from Crossrealms.
+Death messages now wont shown if you kill yourself in any way. BAD EMOS.
+Data Shared Death messages and Death messages wont handle nil sourceNames.
+Data Shared Death messages wont handled, if the player killed him-/herself.
+Death messages now triggered by "PLAYER_DEAD" event, to fix multiple death messages from one death, and to hide it in duels.
+Forgot to add Death messages to SavedVariables in the last version, its added now.
+You cant put nil onto the Payback- and RetributionTables. LOL
+You cant put yourself onto the Payback- and RetributionTables by killing yourself. OLOLOL
+Some SoundEngine bugfixes.
+Some changes in TB Tower sounds.
+Changed EOTS Sounds handle.
+Changed some EOTS Sound file names.
+Renamed EOTS winsound handler.
+Added EOTS RBG.
+More SOTA fixes. Hopefully no more bugs in SOTA!
+EOTS WinSound wont autoreset the PaybackQueue and the RetributionQueue.
+Fixed a bug when you DCd, Alt+F4 or ReloadUI in some Battlegrounds/Battlefields than it didnt played any sounds until the next Zone change. "PLAYER_ENTERING_WORLD" should always trigger "ZONE_CHANGED_NEW_AREA" event. Its actually a Blizzard bug, like always.
+TP/WSG Playsounds seems to work AGAIN, but i have no clue how since i didnt fixed it.
+Fixed a typo with Unstoppable, only in global variables tho.
+Removed some random tabs from the 3.5.5
+Added missing frFR localization phrases.
+Menu commandlist fixes.
+
+* 3.5.5
+Added faction support for playsounds in RBGs. (Needs testing. Should not work in TP/WSG.)
+Modified Payback-/Retribution sounds to work for every kills and deaths in 90sec range.
+Payback Killing time is now 90sec.
+Payback Killing Sounds now works everywhere, with PVP mode only against players, with PVE mode against NPCs too.
+Merged some sounds to fix a random Sound Engine bug, also to work properly while Sound Engine is disabled.
+Changed Zone identification from GetRealZoneText() to GetCurrentMapAreaID() and IsInInstance().
+Removed Zone Type locals.
+Fixed some events with the KillSounds.
+Some SOTA fixes. Might be still some bugs in SOTA sadly.
+Fixed an Arena PlaySound bug.
+Some change with the Arena PlaySounds.
+Reduced Memory usage from KillSounds.
+Fixed a menu coloring bug with Prat.
+WSG/TP 3/3 score sounds only be played when Sound Engine is enabled.
+Added /deathmessage enable/disable switch.
+Death messages now works everywhere, with PVP mode only against players, with PVE mode against NPCs too.
+Reset command now resets the PaybackQueue and the RetributionQueue too.
+When a Battleground is over its autoresets the PaybackQueue and the RetributionQueue.
+Fixed a typo which made multikillsound command unreachable.
+Localization updates, (frFR) mostly.
+Removed some glitch from the menu code.
+
+* 3.5.4
+Fix for the overtime bugfix. lol
+Small change in the WSG/TP score bugfix.
+
+* 3.5.3
+Localization updates.
+
+* 3.5.2
+Hotfix for "RANGE_DAMAGE" overkill, and some eventType event.
+
+* 3.5.1
+Added new KillSounds "Payback" and "Retribution". Triggeded if you got killed by someone who you recently killed, or you kill someone who recenty killed you.
+Payback KillSounds only works in Battlegrounds/Battlefields.
+Added /paysound enable/disable switch.
+Hotfixed a WSG/TP score bugs.
+Fix for TP/WSG overtime bug.
+Fixed a Sound Engine error in TBFG.
+Modified all play- and some attacksounds.
+Reripped all sounds with better quality and to fit for the queue system better, some file names have changed, some files have been removed and some files have been divided.
+Some menu changes, added some non-localized menu options.
+Added frFR and esES and ruRU localization. (ruRu was added earlier but i forgot it in the patch notes)
+Smaller code fixes.
+
+* 3.5.0
+Added Sound Queue System sepeately for KillSounds and BgSounds. That means the next sound wont be played until another sound is beeing played.
+Reset command now resets the BgSoundQueue and the KillSoundQueue too.
+Added /soundengine enable/disable switch.
+Added new sounds for SOTA and IOC.
+Changed EOTS WinSounds to "tonumber" style of handling.
+Changed AV+IOC countdown to "tonumber" style of handling.
+Removed GetBattlefieldWinner() handler from the WinSounds.
+Added 3/3 score sounds to TP/WSG.
+Fixed a zone bug error in TP/WSG. Hope 4.2.2 will fix this anyway.
+Fixed a lua error with GetWorldStateUIInfo().
+Slight change in the KillSounds, now always prioritize KillSounds over Multi Killing sounds.
+Increased Multi Killing time to 16sec, thats like 10 globals with latency.
+Made the code more localization friendly.
+Changed some file names.
+Added Changelog.txt
+Cleared tons of junk from the code, as always.
+
+* 3.2.3
+Added support for older and newer client versions: 4.0.1, 4.0.6, 4.1.0, 4.2.0, 4.2.2, 4.3.0, and any other version between them.
+Fixed EOTS winsound! Screw you blizz.
+BG winsounds can only be played once per game.
+Started to add (frFR), (deDE), (koKR), (esMX), (ruRU), (zhCN), (esES), (zhTW) localization support, you can check the percent of the translated globals here: http://wow.curseforge.com/addons/pvpsound/localization/
+
+* 3.2.2
+Removed Unreal sound from Multi Killing.
+Fixed a coloring bug with reset command.
+Merged some "zone change" event.
+Killing Count now reset if you zone into any Battleground/Arena/Battlefield.
+Some other code fixes.
+
+* 3.2.1
+Toc bump.
+
+* 3.2.0
+Added /ps multikillsound command.
+Multi Killing sounds now can be enabled/disabled.
+Fixed a countdown sound bug in IOC and AV.
+Old menu was boring, so i tuned it up a bit.
+Might remove "Unreal" from Multi Killing sounds.
+Removed 2 unnecessary events.
+Removed 3 glitch from the code.
+
+* 3.1.9
+Toc updated for 4.2.
+Now you can disable KillSounds while Emotes are enabled.
+Removed Flag sounds from EOTS.
+Added EOTS10 RBG but it isnt working yet. LFM RBGs!
+Graveyard sound fix in SOTA between round1 and round2.
+Minor fix for PlaySounds, but TP and WSG PlaySounds somehow just doesnt work for Alliance.
+Added DoubleKilling (Double- Multi- Mega- Ultra- Monsterkill! and UNREAL). Will make it optionable in next version. DoubleKilling time is now 10sec, need more testing maybe gonna change it later. Also might gonna make the DoubleKilling time optionable.
+Other minor code fixes.
+
+* 3.1.8
+Updated for 4.2.
+
+* 3.1.7
+Fixed a bug with the reset slash command.
+Cleared some junk from the code.
+Other minor fixes.
+
+* 3.1.6
+All options now enabled by default, for the new users.
+Sound channel output is now optionable (master, sound, music, ambience).
+
+* 3.1.5
+Had to change Tol Barad sounds from ID stlye to strfind crap to avoid a random Blizzard bug.
+
+* 3.1.4
+Modified to play sounds in Master channel even when game sound effects are disabled.
+Added test mode.
+Fixed a typo, so some of the file names have changed.
+
+* 3.1.3
+Updated for 4.1.
+
+* 3.1.2
+TB base and EOTS flag fixes.
+
+* 3.1.1
+Fixed toc version number, so addon wont show as outdated.
+Fixed TB base and tower bug, and winsounds.
+Fixed WG tower bug, and added new sounds to WG, fixed winsounds too.
+TB and WG should be nonbuggy now.
+Changed BG wins to GetBattlefieldWinner().
+Removed some locals, but had to add some new ones too.
+
+* 3.1.0
+TB, WG, EOTS fixes.
+Added Flag support to EOTS with new sounds. (Horde flag picked up is missing since blizz bug.)
+Removed EOTS winsound untill blizz fixes the EOTS win, or i can solve the problem.
+Addon now supports savedvariables, so after logout the settings wont reset. But need to reconfig your setting again after update!
+Added /ps emote, /ps emotemode, /ps killsound, /ps bgsound commands.
+Battleground and Killing Blow sounds and Emotes now can be enabled/disabled.
+Removed all localizations because its need updates.
+TB and WG winsounds still could be buggy ill try to fix em.
+Loads of smaller fixes.
+
+* 3.0.9
+AB hotfix.
+
+* 3.0.8
+AB, TBFG, IOC, SOTA, TB, WG loads of fixes.
+TB and WG still buggy.
+
+* 3.0.7
+Tons of small fixes, especially with WG.
+TB still need some fix.
+
+* 3.0.6
+Localization updates.
+
+* 3.0.5
+Some random fix and nlNL loc fixes.
+
+* 3.0.4
+Added nlNL localization.
+
+* 3.0.3
+Added gender support.
+
+* 3.0.2
+Added WG, some TB fixes, added zhTW locale.
+WG and TB still have some bugs, ill fix em asap.
+
+* 3.0.1
+Fixed some events, more IoC and AV fixes.
+WG inc soon.
+
+* 3.0.0
+Tol Barad added, IoC and AV fixes.
+
+* 2.9.8
+Some minor fixes.
+
+* 2.9.7
+First Release

@@ -1,0 +1,9 @@
+﻿## Interface: 40200
+## Title: PVPSound |cFF99CC01rev |cffFF00003.6.1
+## Notes: Unreal Tournament 3 PVP Sound Mod.
+## Author: Resike
+## Version: 3.6.1
+## SavedVariables: PS_pvpmode, PS_emote, PS_emotemode, PS_deathmsg, PS_killsound, PS_mutlikillsound, PS_bgsound, PS_channel
+## DefaultState: Enabled
+
+PVPSound.xml

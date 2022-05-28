@@ -45,17 +45,6 @@ MoveAnything_CharacterSettings = {
 				34.00000082363114, -- [5]
 			},
 		},
-		["TargetFrame"] = {
-			["name"] = "TargetFrame",
-			["scale"] = 1.463220156263229,
-			["pos"] = {
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				329.8670247057793, -- [4]
-				-120.6621869560996, -- [5]
-			},
-		},
 		["PlayerFrame"] = {
 			["name"] = "PlayerFrame",
 			["scale"] = 1.46935067102876,
@@ -67,10 +56,21 @@ MoveAnything_CharacterSettings = {
 				-119.9318976096421, -- [5]
 			},
 		},
+		["TargetFrame"] = {
+			["name"] = "TargetFrame",
+			["scale"] = 1.463220156263229,
+			["pos"] = {
+				"TOPLEFT", -- [1]
+				"UIParent", -- [2]
+				"TOPLEFT", -- [3]
+				329.8670247057793, -- [4]
+				-120.6621869560996, -- [5]
+			},
+		},
 	},
 }
 MoveAnything_UseCharacterSettings = nil
 MADB = {
-	["collapsed"] = true,
 	["frameListRows"] = 18,
+	["collapsed"] = true,
 }

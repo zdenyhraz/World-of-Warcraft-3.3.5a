@@ -1,31 +1,26 @@
 
-ThreatPlatesDB = {
-	["namespaces"] = {
-		["LibDualSpec-1.0"] = {
-		},
-	},
+ThreatPlates3DB = {
 	["char"] = {
 		["Jixxy - Blackrock [PvP only]"] = {
-			["spec"] = {
-				["primary"] = false,
-			},
 			["welcome"] = true,
-			["specInfo"] = {
-				{
-					53, -- [1]
-					17, -- [2]
-					1, -- [3]
-				}, -- [1]
-				{
-					3, -- [1]
-					17, -- [2]
-					51, -- [3]
-				}, -- [2]
-			},
 			["specName"] = {
 				"Affliction", -- [1]
 				"Demonology", -- [2]
 				"Destruction", -- [3]
+			},
+			["spec"] = {
+				["primary"] = false,
+			},
+			["specInfo"] = {
+				{
+					54, -- [1]
+					17, -- [2]
+				}, -- [1]
+				{
+					nil, -- [1]
+					20, -- [2]
+					51, -- [3]
+				}, -- [2]
 			},
 		},
 	},
@@ -35,40 +30,31 @@ ThreatPlatesDB = {
 	["profiles"] = {
 		["Default"] = {
 			["nameplate"] = {
-				["toggle"] = {
-					["Totem"] = true,
-				},
-			},
-			["uniqueSettings"] = {
-				[32] = {
-				},
-				[49] = {
-				},
-				[40] = {
-				},
-				[31] = {
-				},
-				[33] = {
-				},
-				["list"] = {
-				},
-				[37] = {
-				},
-				[39] = {
-				},
-				[41] = {
-				},
-				[48] = {
-				},
-				[47] = {
+				["scale"] = {
+					["Elite"] = 1,
+					["Boss"] = 1,
+					["Neutral"] = 1,
 				},
 			},
 			["settings"] = {
+				["options"] = {
+					["showDangerSkull"] = false,
+					["showSpecialArt"] = false,
+					["showSpecialText"] = false,
+					["showEliteIcon"] = false,
+					["showLevel"] = false,
+				},
 				["castbar"] = {
-					["show"] = false,
+					["texture"] = "Swag",
+				},
+				["healthbar"] = {
+					["texture"] = "Swag",
 				},
 			},
-			["cache"] = {
+			["text"] = {
+				["amount"] = false,
+				["percent"] = false,
+				["truncate"] = false,
 			},
 		},
 	},

@@ -2,9 +2,12 @@
 GladiusDB = {
 	["profileKeys"] = {
 		["Jixxy - Blackrock [PvP only]"] = "main",
+		["Jixxys - Blackrock [PvP only]"] = "Jixxys - Blackrock [PvP only]",
 		["Juxxy - Frostmourne"] = "main",
 	},
 	["profiles"] = {
+		["Jixxys - Blackrock [PvP only]"] = {
+		},
 		["main"] = {
 			["powerBar"] = false,
 			["highlight"] = false,
@@ -12,8 +15,8 @@ GladiusDB = {
 			["selectedBorder"] = false,
 			["drList"] = {
 				["CHARGE"] = false,
-				["DISARM"] = false,
 				["SILENCE"] = true,
+				["DISARM"] = false,
 				["ENTRAPMENT"] = false,
 				["RANDOMROOT"] = false,
 			},

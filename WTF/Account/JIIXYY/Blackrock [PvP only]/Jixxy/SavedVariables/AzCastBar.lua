@@ -66,10 +66,10 @@ AzCastBar_Config = {
 	["Focus"] = {
 		["strata"] = "MEDIUM",
 		["useSameBGTexture"] = true,
-		["nameLabelAlign"] = "CENTER",
+		["showSpark"] = false,
 		["left"] = 1500.331911995744,
+		["nameLabelAlign"] = "CENTER",
 		["hideIconBorder"] = true,
-		["anchorPoint"] = "LEFT",
 		["showLabel"] = true,
 		["colNormal"] = {
 			1, -- [1]
@@ -114,21 +114,21 @@ AzCastBar_Config = {
 			0, -- [3]
 			0.9, -- [4]
 		},
-		["showSpark"] = false,
+		["anchorPoint"] = "LEFT",
 		["iconOffset"] = 0,
 	},
 	["Target"] = {
 		["strata"] = "MEDIUM",
 		["useSameBGTexture"] = true,
+		["left"] = 489,
+		["showSpark"] = false,
 		["colNormal"] = {
 			1, -- [1]
 			0.9098039215686274, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["showSpark"] = false,
 		["hideIconBorder"] = true,
-		["anchorPoint"] = "LEFT",
 		["showLabel"] = true,
 		["nameLabelAlign"] = "CENTER",
 		["colInterrupt"] = {
@@ -168,7 +168,7 @@ AzCastBar_Config = {
 		["nameFontFace"] = "Interface\\Addons\\GladiusEx\\media\\Designosaur-Regular.ttf",
 		["height"] = 35,
 		["showTime"] = false,
-		["left"] = 489,
+		["anchorPoint"] = "LEFT",
 		["iconOffset"] = 0,
 	},
 	["optionsLeft"] = 356.9454128267517,

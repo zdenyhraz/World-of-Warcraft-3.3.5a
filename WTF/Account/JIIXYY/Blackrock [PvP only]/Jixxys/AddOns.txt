@@ -1,1 +1,3 @@
 Masque_Caith: enabled
+WeakAurasCompanion: enabled
+WeakAurasArchive: enabled

@@ -28,8 +28,17 @@ END
 MACRO 16777223 "fearf" INV_Misc_QuestionMark
 /cast [@focus] Fear
 END
+MACRO 16777237 "fstone" INV_Misc_QuestionMark
+/cast Create Firestone
+/use Grand Firestone
+/use 16
+/click StaticPopup1Button1
+END
 MACRO 16777228 "hauntf" INV_Misc_QuestionMark
 /cast [@focus] Haunt
+END
+MACRO 16777238 "imof" INV_Misc_QuestionMark
+/cast [@focus] Immolate
 END
 MACRO 16777224 "lock" Spell_Shadow_MindRot
 /cast [@mouseover,harm,nodead] [harm] [@target] Spell Lock
@@ -38,25 +47,24 @@ MACRO 16777224 "lock" Spell_Shadow_MindRot
 /petstay
 END
 MACRO 16777225 "lockf" INV_Misc_QuestionMark
-#showtooltip Spell Lock
 /cast [@focus] Spell Lock
 /cast [@focus] Seduction
 /cast Consume Shadows
 /petstay
 END
-MACRO 16777230 "spsf" INV_Misc_QuestionMark
-/cast [modifier:shift] Soul Fire; Searing Pain
-END
 MACRO 16777226 "stone" INV_Misc_QuestionMark
-/cast Create Spellstone(Rank 6)
+/cast Create Spellstone
 /use Grand Spellstone
 /use 16
 /click StaticPopup1Button1
 END
-MACRO 16777231 "summon" INV_Misc_QuestionMark
+MACRO 16777231 "summon1" INV_Misc_QuestionMark
 /cast [mod:alt] Summon Imp(Summon)
-/cast [mod:ctrl] Summon Succubus(Summon)
 /cast Summon Felhunter(Summon)
+END
+MACRO 16777239 "summon2" INV_Misc_QuestionMark
+/cast [mod:alt] Summon Succubus(Summon)
+/cast Summon Voidwalker(Summon)
 END
 MACRO 16777229 "uaf" INV_Misc_QuestionMark
 /cast [@focus] Unstable Affliction

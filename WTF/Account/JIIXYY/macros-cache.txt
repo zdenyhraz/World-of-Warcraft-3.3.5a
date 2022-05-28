@@ -8,10 +8,6 @@ END
 MACRO 185 "an" Spell_unused2
 /5 Affli lock gameplay with chill music anc sexy UI >> www.twitch.tv/jixxyxd
 END
-MACRO 147 "asd" INV_Misc_QuestionMark
-/cast [modifier:shift] Soul Fire; Conflagrate
-/use Pyro Rocket
-END
 MACRO 175 "camera" Spell_Ice_MagicDamage
 /console cameraDistanceMaxFactor 20
 END
@@ -47,11 +43,23 @@ MACRO 141 "petfollow" Ability_Hunter_BeastTraining
 /petfollow [nomod:alt]
 /petstay [mod:alt]
 /petpassive
-/cast Lesser Invisibility
+END
+MACRO 193 "sed" INV_Misc_QuestionMark
+/cast [@mouseover,harm,nodead] [harm] [@target] Spell Lock
+/cast  [nomod] Sacrifice
+/cast [@target] !Seduction
+END
+MACRO 194 "sedf" INV_Misc_QuestionMark
+/cast [@focus] Spell Lock
+/cast [@focus] Seduction
+/cast Consume Shadows
 END
 MACRO 179 "target" Spell_Shadow_SpectralSight
 /targetenemyplayer
 END
 MACRO 191 "targetm" Ability_Hunter_MasterMarksman
 /targetenemy
+END
+MACRO 192 "wand" INV_Misc_QuestionMark
+/cast [@mouseover] Shoot
 END
